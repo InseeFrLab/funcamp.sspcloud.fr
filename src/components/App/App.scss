@@ -1,0 +1,35 @@
+
+.App {
+
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  z-index: 1;
+
+  border: 1px red solid;
+  background-color: green;
+
+  .castle_side {
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    width: 75%;
+
+
+    background-image: url(./castle_background.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+
+}
+

@@ -18,7 +18,7 @@ docker run \
 
 # OR Relying on docker compose
 
-docker-compose -f docker-compose.dev.yml up --build
+docker-compose -f docker-compose.dev.yml up -d --build
 # To run each time the dependencies have changed.
 # After that it is possible to use docker dashboard to start the app.
 # the app is available on http://localhost:3001

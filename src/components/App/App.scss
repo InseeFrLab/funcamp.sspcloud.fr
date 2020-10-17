@@ -1,4 +1,7 @@
 
+$transition_duration: 2s;
+$angle: -24deg;
+
 .App {
 
   width: 100%;
@@ -7,10 +10,10 @@
   position: relative;
   z-index: 1;
 
-  border: 1px red solid;
-  background-color: green;
+  $width_of_castle: 75%;
 
-  .castle_side {
+
+  .castleSide {
 
     position: absolute;
     z-index: -1;
@@ -18,18 +21,132 @@
     right: 0;
 
     height: 100%;
-    width: 75%;
+    width: $width_of_castle;
 
+    transition: width $transition_duration;
 
     background-image: url(./castle_background.png);
 
-    background-position: center;
+    //background-position: center;
+    background-position: right 50% bottom 0%;
     background-repeat: no-repeat;
     background-size: cover;
+    //background-size: 100%;
+
+    /*  --- Overlay --- */
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -3;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.45);
+
+      transition: background-color $transition_duration;
+
+    }
+
+    /* --- skew separation (as an after element) ---- */
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      right: 100%;
+      width: 10000px;
+      height: 100%;
+      transform-origin: bottom;
+    
+    
+      -webkit-transform: skewX($angle);
+      -moz-transform: skewX($angle);
+      -ms-transform: skewX($angle);
+      -o-transform: skewX($angle);
+      transform: skewX($angle);
+    
+      transition: transform 2s;
+    
+      background-color: #fff;
+    
+    }
+
+
 
 
   }
 
+  .catchphraseSide {
+
+    border: 3px red solid;
+
+
+
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+
+    width: 100%- $width_of_castle + 20% ;
+
+    transition: width 0s $transition_duration;
+
+    > * {
+      transition: transform $transition_duration;
+    }
+
+
+
+  }
+
+  &.fullScreen {
+
+    .catchphraseSide {
+
+      width: 0;
+
+      > * {
+        transform: translate(-1000px);
+      }
+
+    }
+
+    .castleSide {
+    
+      width: 100%;
+
+      &::before {
+        background-color: rgba(0,0,0,0);
+      }
+
+      &::after {
+        
+        $angle: 0deg;
+        
+        -webkit-transform: skewX($angle);
+        -moz-transform: skewX($angle);
+        -ms-transform: skewX($angle);
+        -o-transform: skewX($angle);
+        transform: skewX($angle);
+        
+      }
+      
+
+    }
+
+  }
+
+  
+
 
 }
+
 

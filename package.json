@@ -6,7 +6,9 @@
     "animate.css": "^4.1.1",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-async-hook": "^3.6.2",
+    "react-dom": "^16.14.0",
+    "type-route": "^0.5.6"
   },
   "devDependencies": {
     "@testing-library/dom": "^5.6.1",

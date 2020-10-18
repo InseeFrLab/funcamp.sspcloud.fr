@@ -2,7 +2,7 @@
 $transition_duration: 2s;
 $angle: -24deg;
 
-.App {
+.CountDownAndHomeCastle {
 
   width: 100%;
   min-height: 100vh;
@@ -13,7 +13,7 @@ $angle: -24deg;
   $width_of_castle: 75%;
 
 
-  .castleSide {
+  .castle {
 
     position: absolute;
     z-index: -1;
@@ -27,11 +27,9 @@ $angle: -24deg;
 
     background-image: url(./castle_background.png);
 
-    //background-position: center;
     background-position: right 50% bottom 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    //background-size: 100%;
 
     /*  --- Overlay --- */
 
@@ -82,7 +80,7 @@ $angle: -24deg;
 
   }
 
-  .catchphraseSide {
+  .countdownSidePanel {
 
     border: 3px red solid;
 
@@ -107,9 +105,9 @@ $angle: -24deg;
 
   }
 
-  &.fullScreen {
+  &.home {
 
-    .catchphraseSide {
+    .countdownSidePanel {
 
       width: 0;
 
@@ -119,7 +117,7 @@ $angle: -24deg;
 
     }
 
-    .castleSide {
+    .castle {
     
       width: 100%;
 

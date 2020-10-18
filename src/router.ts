@@ -4,3 +4,4 @@ export const { RouteProvider, useRoute, routes } = createRouter({
   "countdown": defineRoute("/"),
   "home": defineRoute("/home")
 });
+

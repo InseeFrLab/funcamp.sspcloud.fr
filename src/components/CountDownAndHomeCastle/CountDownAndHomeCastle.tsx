@@ -1,10 +1,9 @@
 
 import React, { useCallback } from "react";
-import "./CountDownAndHomeCastle.scss";
+import styles from "./CountDownAndHomeCastle.scss";
 import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
-import /*type*/ { Route } from "type-route";
-
+import type { Route } from "type-route";
 
 export const CountDownAndHomeCastle: React.FC<{
   route: Route<typeof routes.home> | Route<typeof routes.countdown>;
@@ -12,14 +11,18 @@ export const CountDownAndHomeCastle: React.FC<{
 
   const { route } = params;
 
-
-  const { 
-    execute: buttonCallback, 
-    loading: isTransitioningToHome 
+  const {
+    execute: buttonCallback,
+    loading: isTransitioningToHome
   } = useAsyncAbortable(
     useCallback(async (abortSignal: AbortSignal) => {
 
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      await new Promise(
+        resolve => setTimeout(
+          resolve,
+          styles.transitionDuration
+        )
+      );
 
       if (abortSignal.aborted) {
         return;
@@ -36,11 +39,11 @@ export const CountDownAndHomeCastle: React.FC<{
   );
 
   return (
-    <div 
+    <div
       className={`
         CountDownAndHomeCastle
-        ${route.name === "home" || isTransitioningToHome ? "home" : "" }
-      `} 
+        ${route.name === "home" || isTransitioningToHome ? "home" : ""}
+      `}
     >
 
       <div className="castle">

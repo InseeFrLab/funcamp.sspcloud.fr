@@ -1,6 +1,11 @@
 
-$transition_duration: 2s;
+$transitionDurationInteger: 2000;
+$transitionDuration: $transitionDurationInteger + 0ms;
 $angle: -24deg;
+
+:export {
+  transitionDuration: $transitionDurationInteger;
+}
 
 .CountDownAndHomeCastle {
 
@@ -23,7 +28,7 @@ $angle: -24deg;
     height: 100%;
     width: $width_of_castle;
 
-    transition: width $transition_duration;
+    transition: width $transitionDuration;
 
     background-image: url(./castle_background.png);
 
@@ -44,7 +49,7 @@ $angle: -24deg;
       left: 0;
       background-color: rgba(0,0,0,0.45);
 
-      transition: background-color $transition_duration;
+      transition: background-color $transitionDuration;
 
     }
 
@@ -95,10 +100,10 @@ $angle: -24deg;
 
     width: 100%- $width_of_castle + 20% ;
 
-    transition: width 0s $transition_duration;
+    transition: width 0s $transitionDuration;
 
     > * {
-      transition: transform $transition_duration;
+      transition: transform $transitionDuration;
     }
 
 

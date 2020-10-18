@@ -1,6 +1,6 @@
 import "./Home.scss";
 import React from "react";
-import /*type*/ { Route } from "type-route";
+import { Route } from "type-route";
 import { routes } from "../../router";
 
 export const Home: React.FC<{

@@ -7,6 +7,8 @@ export const App: React.FC = () => {
 
   const route = useRoute();
 
+  console.log(route.name);
+
   return (
     <>
       {(() => {

@@ -1,0 +1,21 @@
+
+@import 'fonts/font-face.scss';
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+
+  box-sizing: border-box;
+
+  *:not(img), *:before, *:after { box-sizing: inherit; }
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+

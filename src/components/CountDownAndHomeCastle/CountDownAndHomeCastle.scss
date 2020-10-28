@@ -20,6 +20,8 @@ $angle: -24deg;
 
   .castle {
 
+    border: 2px blue solid;
+
     position: absolute;
     z-index: -1;
     top: 0;
@@ -106,6 +108,31 @@ $angle: -24deg;
       transition: transform $transitionDuration;
     }
 
+
+      
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    */
+
+    > div {
+
+      margin-top: 40%;
+
+      width: 100%;
+
+      border: 1px solid black;
+
+      > h1 {
+      
+        //font-style: normal;
+        font-weight: 100;
+        font-size: 1.7em;
+      
+      }
+
+    }
 
 
   }

@@ -59,9 +59,16 @@ export const CountDownAndHomeCastle: React.FC<{
 
             {route.name === "countdown" &&
                 <div className="countdownSidePanel">
-                    <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
-                    <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
-                    <button onClick={buttonCallback}>Découvrir</button>
+
+                    <div>
+
+                        <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
+                        <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
+                        <button onClick={buttonCallback}>Découvrir</button>
+
+                    </div>
+
+
                 </div>
             }
 

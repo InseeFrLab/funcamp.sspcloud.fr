@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { useRoute } from "../../router";
-import { CountDownAndHomeCastle } from "../CountDownAndHomeCastle/CountDownAndHomeCastle";
+import { CountDownAndHomeCastle, routeGroup as countDownAndHomeCastleRouteGroup } from "../CountDownAndHomeCastle/CountDownAndHomeCastle";
 import { Home } from "../Home/Home";
 import * as serviceWorker from "./serviceWorker";
 import { RouteProvider } from "../../router";
@@ -12,24 +12,10 @@ const App: React.FC = () => {
 
   const route = useRoute();
 
-  console.log(route.name);
-
   return (
     <>
-      {(() => {
-        switch (route.name) {
-          case "countdown":
-          case "home":
-            return <CountDownAndHomeCastle route={route} />
-          default: return null;
-        }
-      })()}
-      {(() => {
-        switch (route.name) {
-          case "home": return <Home route={route}/>;
-          default: return null;
-        }
-      })()}
+      {countDownAndHomeCastleRouteGroup.has(route) && <CountDownAndHomeCastle route={route} />}
+      {route.name === "home" && <Home route={route} />}
     </>
   );
 

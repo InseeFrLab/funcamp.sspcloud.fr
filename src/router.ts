@@ -1,12 +1,9 @@
 import { createRouter, defineRoute } from "type-route";
 
-export const { RouteProvider, useRoute, routes } = createRouter({
-  "countdown": defineRoute("/funcamp"),
-  "home": defineRoute("/funcamp/home")
+const root = defineRoute(process.env["PUBLIC_URL"]);
 
-  /*
-  "countdown": defineRoute("/"),
-  "home": defineRoute("/home")
-  */
+export const { RouteProvider, useRoute, routes } = createRouter({
+  "countdown": root.extend("/"),
+  "home": root.extend("/home")
 });
 

@@ -4,9 +4,16 @@ import styles from "./CountDownAndHomeCastle.scss";
 import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
 import type { Route } from "type-route";
+import { createGroup } from "type-route";
+
+
+export const routeGroup = createGroup([
+    routes.home,
+    routes.countdown
+]);
 
 export const CountDownAndHomeCastle: React.FC<{
-    route: Route<typeof routes.home> | Route<typeof routes.countdown>;
+    route: Route<typeof routeGroup>;
 }> = params => {
 
     const { route } = params;
@@ -47,14 +54,8 @@ export const CountDownAndHomeCastle: React.FC<{
         >
 
             <div className="castle">
-                {(() => {
-
-                    switch (route.name) {
-                        case "countdown": return <p>Coutdown placeholder</p>;
-                        case "home": return <p>Home placeholder</p>;
-                    }
-
-                })()}
+                {route.name === "countdown" && <p>Coutdown placeholder</p>}
+                {route.name === "home" && <p>Home placeholder</p>}
             </div>
 
             {route.name === "countdown" &&

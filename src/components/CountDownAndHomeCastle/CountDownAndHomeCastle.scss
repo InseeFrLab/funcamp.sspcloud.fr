@@ -13,21 +13,15 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 .CountDownAndHomeCastle {
 
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
 
   position: relative;
   z-index: 1;
   $width_of_castle: 75%;
 
-  background-color: violet;
-
-  
-
-
-
   .castle {
 
-    //border: 2px blue solid;
+    border: 6px solid yellow;
 
     position: absolute;
     z-index: -1;
@@ -47,7 +41,6 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
     /*  --- Overlay --- */
 
-    /*
     &::before {
       content: "";
       display: block;
@@ -62,12 +55,10 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       transition: background-color $transitionDuration;
 
     }
-    */
 
     /* --- skew separation (as an after element) ---- */
     overflow: hidden;
 
-    /*
     &::after {
       content: "";
       display: block;
@@ -91,10 +82,8 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       background-color: #fff;
     
     }
-    */
 
     
-    border: 6px solid yellow;
 
 
     > .countdown {
@@ -110,7 +99,6 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       opacity: 100%;
 
       transition: opacity $transitionDuration;
-      //transition: width $transitionDuration;
 
       display: flex;
       justify-content: center;
@@ -124,40 +112,40 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
       }
 
+      @media (max-width: 992px) {
+
+        position: unset;
+        width: 100%;
+        right: unset;
+
+      }
+
 
 
     }
 
     @media (max-width: 992px) {
 
-      position: unset;
+      position: relative;
       width: 100%;
-      //padding-left: 15px;
-      //padding-right: 15px;
-      height: 75%; //TODO <- not working, find out why
+      height: 75%; 
+      transition: height $transitionDuration;
+
+      $angle: 8deg;
       
-      /*
       &::after {
         top: 100%;
         right: 0;
         width: 100%;
         height: 10000px;
         transform-origin: top right;
-        -webkit-transform: skew(180deg, 8deg);
-        -moz-transform: skew(180deg, 8deg);
-        -ms-transform: skew(180deg, 8deg);
-        -o-transform: skew(180deg, 8deg);
-        transform: skew(180deg, 8deg);
+        -webkit-transform: skew(180deg, $angle);
+        -moz-transform: skew(180deg, $angle);
+        -ms-transform: skew(180deg, $angle);
+        -o-transform: skew(180deg, $angle);
+        transform: skew(180deg, $angle);
       }
-      */
 
-      > .countdown {
-        position: unset;
-        width: 100%;
-        height: unset;
-        right: unset;
-        
-      }
       
     }
 
@@ -235,8 +223,6 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
     .countdownSidePanel {
 
-      width: 0;
-
       > * {
         transform: translate(-1000px);
       }
@@ -266,6 +252,25 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       > .countdown {
 
         opacity: 0%;
+
+      }
+
+      @media (max-width: 992px) {
+
+        height: 100%;
+
+        &::after {
+
+          $angle: 0;
+
+          -webkit-transform: skew(180deg, $angle);
+          -moz-transform: skew(180deg, $angle);
+          -ms-transform: skew(180deg, $angle);
+          -o-transform: skew(180deg, $angle);
+          transform: skew(180deg, $angle);
+
+        }
+
 
       }
       

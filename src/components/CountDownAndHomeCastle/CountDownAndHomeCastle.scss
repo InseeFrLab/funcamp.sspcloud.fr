@@ -1,7 +1,10 @@
 
+@import "./trig";
+
 $transitionDurationInteger: 2000;
 $transitionDuration: $transitionDurationInteger + 0ms;
 $angle: -24deg;
+$oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
 :export {
   transitionDuration: $transitionDurationInteger;
@@ -14,13 +17,17 @@ $angle: -24deg;
 
   position: relative;
   z-index: 1;
-
   $width_of_castle: 75%;
+
+  background-color: violet;
+
+  
+
 
 
   .castle {
 
-    border: 2px blue solid;
+    //border: 2px blue solid;
 
     position: absolute;
     z-index: -1;
@@ -40,6 +47,7 @@ $angle: -24deg;
 
     /*  --- Overlay --- */
 
+    /*
     &::before {
       content: "";
       display: block;
@@ -54,10 +62,12 @@ $angle: -24deg;
       transition: background-color $transitionDuration;
 
     }
+    */
 
     /* --- skew separation (as an after element) ---- */
     overflow: hidden;
 
+    /*
     &::after {
       content: "";
       display: block;
@@ -76,22 +86,87 @@ $angle: -24deg;
       -o-transform: skewX($angle);
       transform: skewX($angle);
     
-      transition: transform 2s;
+      transition: transform $transitionDuration;
     
       background-color: #fff;
     
     }
+    */
+
+    
+    border: 6px solid yellow;
+
+    @media (max-width: 992px) {
+
+      position: unset;
+      //height: 300px !important;
 
 
+      
+    }
 
+    > .countdown {
+
+
+      position: absolute;
+      width: calc(100% - #{$oppositeToAngleSideLength});
+      height: 100%;
+      border: black 5px solid;
+      right: 0;
+
+      opacity: 100%;
+
+      transition: opacity $transitionDuration;
+      //transition: width $transitionDuration;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      > div {
+
+        width: 200px;
+        height: 200px;
+        background-color: red;
+
+      }
+
+    }
+
+    @media (max-width: 992px) {
+
+      position: unset;
+      width: 100%;
+      //padding-left: 15px;
+      //padding-right: 15px;
+      height: 75%;
+      
+      /*
+      &::after {
+        top: 100%;
+        right: 0;
+        width: 100%;
+        height: 10000px;
+        transform-origin: top right;
+        -webkit-transform: skew(180deg, 8deg);
+        -moz-transform: skew(180deg, 8deg);
+        -ms-transform: skew(180deg, 8deg);
+        -o-transform: skew(180deg, 8deg);
+        transform: skew(180deg, 8deg);
+      }
+      */
+
+      > .countdown {
+        width: 100%;
+      }
+      
+    }
 
   }
 
   .countdownSidePanel {
 
     border: 3px red solid;
-
-
 
     position: absolute;
     z-index: 0;
@@ -100,7 +175,8 @@ $angle: -24deg;
 
     height: 100%;
 
-    width: 100%- $width_of_castle + 20% ;
+    //width: calc(100% - #{$width_of_castle} + #{$oppositeToAngleSideLength});
+    width: calc(100% - #{$width_of_castle});
 
     transition: width 0s $transitionDuration;
 
@@ -109,35 +185,52 @@ $angle: -24deg;
     }
 
 
-      
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    */
-
     > div {
 
-      margin-top: 40%;
+      //margin-top: 40%;
 
       width: 100%;
 
       border: 1px solid black;
 
+      padding-left: 20px;
+
       > h1 {
       
-        //font-style: normal;
-        font-weight: 100;
-        font-size: 1.7em;
+        font-weight: 500;
+        font-size: 1.5em;
+
+        color: #555555
       
+      }
+
+      > h2 {
+
+
+        font-weight: 300;
+        font-size: 1em;
+        color: #999999;
+
       }
 
     }
 
+    @media (max-width: 992px) {
+
+
+
+      position: initial;
+      top: unset;
+      left: unset;
+      height: unset;
+      width: unset;
+
+
+    }
 
   }
 
-  &.home {
+  &.homepageState {
 
     .countdownSidePanel {
 
@@ -168,14 +261,18 @@ $angle: -24deg;
         transform: skewX($angle);
         
       }
+
+      > .countdown {
+
+        opacity: 0%;
+
+      }
       
 
     }
 
+
   }
-
-  
-
 
 }
 

@@ -6,7 +6,6 @@ import { useAsyncAbortable } from "react-async-hook";
 import type { Route } from "type-route";
 import { createGroup } from "type-route";
 
-
 export const routeGroup = createGroup([
     routes.home,
     routes.countdown
@@ -48,14 +47,19 @@ export const CountDownAndHomeCastle: React.FC<{
     return (
         <div
             className={`
-        CountDownAndHomeCastle
-        ${route.name === "home" || isTransitioningToHome ? "home" : ""}
+        CountDownAndHomeCastle 
+        ${(route.name === "home" || isTransitioningToHome) ? "homepageState" : ""}
       `}
         >
-
             <div className="castle">
-                {route.name === "countdown" && <p>Coutdown placeholder</p>}
-                {route.name === "home" && <p>Home placeholder</p>}
+                {route.name === "countdown" && (
+                    <div className="countdown">
+                        <div>
+                            <p>Coutdown placeholder</p>
+                        </div>
+                    </div>
+                )}
+                {route.name === "home" && <p>Home placeholder !</p>}
             </div>
 
             {route.name === "countdown" &&

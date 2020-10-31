@@ -5,6 +5,7 @@ $transitionDurationInteger: 2000;
 $transitionDuration: $transitionDurationInteger + 0ms;
 $angle: -24deg;
 $oppositeToAngleSideLength: tan(-$angle) * 100vh;
+$breakpoint: 992px;
 
 :export {
   transitionDuration: $transitionDurationInteger;
@@ -21,7 +22,7 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
   .castle {
 
-    border: 6px solid yellow;
+    //border: 6px solid yellow;
 
     position: absolute;
     z-index: -1;
@@ -83,9 +84,6 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
     
     }
 
-    
-
-
     > .countdown {
 
 
@@ -93,7 +91,7 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       width: calc(100% - #{$oppositeToAngleSideLength});
       height: 100%;
 
-      border: black 5px solid;
+      //border: black 5px solid;
       right: 0;
 
       opacity: 100%;
@@ -112,7 +110,7 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
       }
 
-      @media (max-width: 992px) {
+      @media (max-width: $breakpoint) {
 
         position: unset;
         width: 100%;
@@ -120,11 +118,9 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
       }
 
-
-
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: $breakpoint) {
 
       position: relative;
       width: 100%;
@@ -150,12 +146,11 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
     }
 
 
-
   }
 
   .countdownSidePanel {
 
-    border: 3px red solid;
+    //border: 3px red solid;
 
     position: absolute;
     z-index: 0;
@@ -165,7 +160,7 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
     height: 100%;
 
     //width: calc(100% - #{$width_of_castle} + #{$oppositeToAngleSideLength});
-    width: calc(100% - #{$width_of_castle});
+    //width: calc(100% - #{$width_of_castle} + 20%);
 
     transition: width 0s $transitionDuration;
 
@@ -176,11 +171,11 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
     > div {
 
-      //margin-top: 40%;
+      margin-top: 40%;
 
       width: 100%;
 
-      border: 1px solid black;
+      //border: 1px solid black;
 
       padding-left: 20px;
 
@@ -202,9 +197,41 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
       }
 
+      > div button {
+
+        margin-top: 20px;
+
+        font: unset;
+
+        width: 161px;
+        height: 64px;
+        border: 3px solid black;
+        border-radius: 0;
+        font-size: 1.5em;
+        font-weight: 500;
+
+        -webkit-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+        -moz-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+        box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+
+      }
+
+
+      @media (max-width: $breakpoint) {
+
+        margin-top: 0%;
+
+        > div {
+
+          text-align: center;
+
+        }
+
+      }
+
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: $breakpoint) {
 
 
 
@@ -255,7 +282,7 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
       }
 
-      @media (max-width: 992px) {
+      @media (max-width: $breakpoint) {
 
         height: 100%;
 

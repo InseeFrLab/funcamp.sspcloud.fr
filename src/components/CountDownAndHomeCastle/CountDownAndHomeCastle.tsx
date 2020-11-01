@@ -7,6 +7,8 @@ import type { Route } from "type-route";
 import { createGroup } from "type-route";
 import tchapImg from "./tchap.png";
 import inseeFrLabImg from "./inseeFrLab.png";
+import icariusImg from "./icarius.png";
+import "animate.css/animate.css";
 
 declare const $: Function | undefined;
 
@@ -84,7 +86,28 @@ export const CountDownAndHomeCastle: React.FC<{
         >
             <div className="castle">
                 {route.name === "countdown" && <Countdown />}
-                {route.name === "home" && <p>Home placeholder !</p>}
+                {route.name === "home" && (
+                    <div className="home">
+
+                        <div className="animate__animated animate__backInDown">
+                            <img src={icariusImg} className="js-tilt" />
+                        </div>
+
+                        <div className="animate__animated animate__backInRight">
+
+                            <h1>Une expérience vidéoludique d'apprentissage R</h1>
+                            <h3>L’épopée statistico-ludique dont vous êtes le héros / l’héroïne.</h3>
+
+                        </div>
+
+                        <div>
+
+                            <button>Commencer le jeu</button>
+
+                        </div>
+
+                    </div>
+                )}
             </div>
 
             {route.name === "countdown" &&

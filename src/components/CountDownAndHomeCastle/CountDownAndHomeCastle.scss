@@ -396,13 +396,24 @@ $breakpoint: 992px;
             font-weight: 500;
             font-size: 1.5em;
           }
-          > h2 {
+          > h3 {
             font-weight: 300;
             font-size: 1em;
           }
           > h1, > h3 {
             color: white;
           }
+
+
+          @media (max-width: $breakpoint) {
+            > h1 {
+              font-size: 1em;
+            }
+            > h3 {
+              font-size: 0.8em;
+            }
+          }
+
         }
 
         > div:nth-of-type(3) {
@@ -411,11 +422,35 @@ $breakpoint: 992px;
           width: 100%;
           bottom: 0;
 
-          border: 3px solid black;
+
+          margin-bottom: 91px;
 
           > button {
-            margin-bottom: 150px;
+
+            background-color: #8090D8;
+            border-radius: 15px;
+            border: 3px white solid;
+            color: white;
+            font-size: 2em;
+
+            -webkit-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+            -moz-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+            box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+
+
           }
+
+          @media (max-width: $breakpoint) {
+
+            position: unset;
+            bottom: unset;
+            margin-bottom: unset;
+            margin-top: 40px;
+
+          }
+
+
+
 
 
         }

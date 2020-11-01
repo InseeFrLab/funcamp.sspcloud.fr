@@ -105,6 +105,9 @@ $breakpoint: 992px;
       > div {
 
         //border: blue 5px solid;
+        margin-bottom: 304px;
+        margin-right: 92px;
+        text-align: center;
 
         h1 {
           color: White;
@@ -118,6 +121,18 @@ $breakpoint: 992px;
           //border: black 5px solid;
           > div {
 
+            //border: yellow 5px solid;
+            margin: 20px;
+
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+
+            $diameter: 160px;
+
+            width: $diameter;
+            height: $diameter;
+
+
             > h3, span {
               color: white;
             }
@@ -129,6 +144,16 @@ $breakpoint: 992px;
           }
         }
 
+
+        @media (max-width: $breakpoint) {
+
+          margin-bottom: unset;
+          margin-right: unset;
+          margin-top: 41px;
+
+        }
+
+
       }
 
       @media (max-width: $breakpoint) {
@@ -136,6 +161,8 @@ $breakpoint: 992px;
         position: unset;
         width: 100%;
         right: unset;
+        align-items: unset;
+
 
       }
 

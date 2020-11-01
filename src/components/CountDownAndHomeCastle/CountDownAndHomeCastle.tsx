@@ -42,6 +42,8 @@ export const CountDownAndHomeCastle: React.FC<{
 
     const { route } = params;
 
+    console.log(route.name);
+
 
 
     const {
@@ -152,7 +154,7 @@ const Countdown: React.FC = () => {
         }
     );
 
-    console.log(isLoading);
+    console.log("display", isLoading);
 
     return (
         <div className="countdown">
@@ -164,7 +166,7 @@ const Countdown: React.FC = () => {
                         <div
                             className={`${eventName} js-tilt`}
                             key={eventName}
-                            style={{ "visibility": isLoading ? "hidden" : "unset" }}
+                            //style={{ "visibility": isLoading ? "hidden" : "unset" }}
                         >
                             <h3 >{eventName}</h3>
                             <div>

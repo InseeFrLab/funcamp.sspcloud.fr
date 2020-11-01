@@ -104,9 +104,30 @@ $breakpoint: 992px;
 
       > div {
 
-        width: 200px;
-        height: 200px;
-        background-color: red;
+        //border: blue 5px solid;
+
+        h1 {
+          color: White;
+          font-weight: 500;
+          font-size: 1.5em;
+        }
+
+
+        > div {
+          display: flex;
+          //border: black 5px solid;
+          > div {
+
+            > h3, span {
+              color: white;
+            }
+
+
+
+            //border: red 5px solid;
+            flex-grow: 1;
+          }
+        }
 
       }
 
@@ -124,7 +145,7 @@ $breakpoint: 992px;
 
       position: relative;
       width: 100%;
-      height: 75%; 
+      height: 70%; 
       transition: height $transitionDuration;
 
       $angle: 8deg;

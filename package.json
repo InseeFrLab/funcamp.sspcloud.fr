@@ -8,7 +8,8 @@
     "react-dom": "^16.14.0",
     "animate.css": "^4.1.1",
     "react-async-hook": "^3.6.2",
-    "type-route": "^0.5.6"
+    "type-route": "^0.5.6",
+    "evt": "^1.9.2"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

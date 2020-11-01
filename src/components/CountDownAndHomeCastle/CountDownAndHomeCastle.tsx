@@ -5,6 +5,8 @@ import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
 import type { Route } from "type-route";
 import { createGroup } from "type-route";
+import tchapImg from "./tchap.png";
+import inseeFrLabImg from "./inseeFrLab.png";
 
 declare const $: Function | undefined;
 
@@ -86,26 +88,38 @@ export const CountDownAndHomeCastle: React.FC<{
             </div>
 
             {route.name === "countdown" &&
-                <div className="countdownSidePanel">
+                    <div className="countdownSidePanel">
 
-                    <div>
-
-                        <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
-                        <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
                         <div>
-                            <button onClick={buttonCallback}>Découvrir</button>
+
+                            <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
+                            <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
+                            <div>
+                                <button onClick={buttonCallback}>Découvrir</button>
+                            </div>
+
+                            <div className="links">
+
+                                <a href="https://github.com/InseeFrLab">
+                                    <img src={inseeFrLabImg} />
+                                </a>
+
+                                <a href="https://www.tchap.gouv.fr/#/room/#SSPCloudXDpAw6v:agent.finances.tchap.gouv.fr">
+                                    <img src={tchapImg} />
+                                </a>
+
+                            </div>
+
                         </div>
 
+
                     </div>
+                }
 
+            </div>
+        );
 
-                </div>
-            }
-
-        </div>
-    );
-
-};
+    };
 
 const Countdown: React.FC = () => {
 
@@ -166,7 +180,7 @@ const Countdown: React.FC = () => {
                         <div
                             className={`${eventName} js-tilt`}
                             key={eventName}
-                            //style={{ "visibility": isLoading ? "hidden" : "unset" }}
+                        //style={{ "visibility": isLoading ? "hidden" : "unset" }}
                         >
                             <h3 >{eventName}</h3>
                             <div>

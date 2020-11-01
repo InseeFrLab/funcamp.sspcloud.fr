@@ -94,7 +94,7 @@ $breakpoint: 992px;
       //border: black 5px solid;
       right: 0;
 
-      opacity: 100%;
+      opacity: 1;
 
       transition: opacity $transitionDuration;
 
@@ -287,6 +287,27 @@ $breakpoint: 992px;
 
       }
 
+      > .links {
+
+        position: absolute;
+
+        bottom: 20px;
+        left: 20px;
+
+        > a:first-of-type {
+          margin-right: 20px;
+        }
+
+
+        @media (max-width: $breakpoint) {
+
+          visibility: hidden;
+
+        }
+
+
+      }
+
 
       @media (max-width: $breakpoint) {
 
@@ -323,6 +344,11 @@ $breakpoint: 992px;
 
       > * {
         transform: translate(-1000px);
+      }
+
+      .links {
+        opacity: 0;
+        //visibility: hidden;
       }
 
     }

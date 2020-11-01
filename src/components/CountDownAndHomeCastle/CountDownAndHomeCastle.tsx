@@ -5,8 +5,8 @@ import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
 import type { Route } from "type-route";
 import { createGroup } from "type-route";
-import { Evt } from "evt";
-import { useEvt } from "evt/hooks";
+
+declare const $: Function | undefined;
 
 export const routeGroup = createGroup([
     routes.home,
@@ -42,39 +42,6 @@ export const CountDownAndHomeCastle: React.FC<{
 
     const { route } = params;
 
-    useEvt(ctx => {
-
-        /*
-        Evt.from(
-            ctx,
-            (window as any).$(document),
-            "ready"
-        ).attachOnce(() =>
-        */
-       Evt.from(
-           ctx,
-           document,
-           "readystatechange"
-       ).attachOnce(()=>
-            upcomingEvents.forEach(({
-                eventName,
-                endtimeYear,
-                endtimeDate,
-                endtimeMonth,
-                endtimeHours
-            }) => (window as any).$(`.${eventName}`).countdown100({
-                endtimeYear,
-                endtimeMonth,
-                endtimeDate,
-                endtimeHours,
-                "endtimeMinutes": 0,
-                "endtimeSeconds": 0,
-                "timeZone": "Europe/Paris"
-            }))
-        );
-
-
-    }, []);
 
 
     const {
@@ -112,40 +79,7 @@ export const CountDownAndHomeCastle: React.FC<{
       `}
         >
             <div className="castle">
-                {route.name === "countdown" && (
-                    <div className="countdown animate__animated animate__bounce">
-                        <div> {/* Countdown placeholder*/}
-
-                            <h1>Prochain Bootcamps</h1>
-                            <div>
-                                {upcomingEvents.map(({ eventName }) => (
-                                    <div className={`${eventName} js-tilt`} key={eventName}>
-                                        <h3 >{eventName}</h3>
-                                        <div>
-                                            <span className="days"></span>
-                                            
-                                            <span> Jours</span>
-                                        </div>
-                                        <div>
-                                            <span className="hours"></span>
-                                            <span> Heurs</span>
-                                        </div>
-                                        <div>
-                                            <span className="minutes"></span>
-                                            <span> Minutes</span>
-                                        </div>
-                                        <div>
-                                            <span className="seconds"></span>
-                                            <span> Secondes</span>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-
-
-                        </div>
-                    </div>
-                )}
+                {route.name === "countdown" && <Countdown />}
                 {route.name === "home" && <p>Home placeholder !</p>}
             </div>
 
@@ -166,6 +100,96 @@ export const CountDownAndHomeCastle: React.FC<{
                 </div>
             }
 
+        </div>
+    );
+
+};
+
+const Countdown: React.FC = () => {
+
+    const { loading: isLoading } = useAsyncAbortable(
+        async abortSignal => {
+
+            while (!$ || !$(document).countdown100) {
+
+                console.log("tick");
+
+                await new Promise(
+                    resolve => setTimeout(
+                        resolve,
+                        100
+                    )
+                );
+
+
+                if (abortSignal.aborted) {
+                    return;
+                }
+
+            }
+
+            upcomingEvents.forEach(({
+                eventName,
+                endtimeYear,
+                endtimeDate,
+                endtimeMonth,
+                endtimeHours
+            }) => (window as any).$(`.${eventName}`).countdown100({
+                endtimeYear,
+                endtimeMonth,
+                endtimeDate,
+                endtimeHours,
+                "endtimeMinutes": 0,
+                "endtimeSeconds": 0,
+                "timeZone": "Europe/Paris"
+            }));
+
+        },
+        [],
+        {
+            "executeOnMount": true,
+            "executeOnUpdate": true
+        }
+    );
+
+    console.log(isLoading);
+
+    return (
+        <div className="countdown">
+            <div> {/* Countdown placeholder*/}
+
+                <h1>Prochain Bootcamps</h1>
+                <div>
+                    {upcomingEvents.map(({ eventName }) => (
+                        <div
+                            className={`${eventName} js-tilt`}
+                            key={eventName}
+                            style={{ "visibility": isLoading ? "hidden" : "unset" }}
+                        >
+                            <h3 >{eventName}</h3>
+                            <div>
+                                <span className="days"></span>
+
+                                <span> Jours</span>
+                            </div>
+                            <div>
+                                <span className="hours"></span>
+                                <span> Heurs</span>
+                            </div>
+                            <div>
+                                <span className="minutes"></span>
+                                <span> Minutes</span>
+                            </div>
+                            <div>
+                                <span className="seconds"></span>
+                                <span> Secondes</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+
+            </div>
         </div>
     );
 

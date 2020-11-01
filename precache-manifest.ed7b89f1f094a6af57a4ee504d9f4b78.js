@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cd61400f0a0cf02b3e72ed33fec28a6",
+    "revision": "fc52b4a9ccf16ec37bc3c53f88ccd713",
     "url": "/funcamp/index.html"
   },
   {
-    "revision": "6267b61c76f36cfba08d",
+    "revision": "8df37e99321ba82a0a0d",
     "url": "/funcamp/static/css/main.161a1bcd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funcamp/static/js/2.79b2eec3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6267b61c76f36cfba08d",
-    "url": "/funcamp/static/js/main.f679ddbd.chunk.js"
+    "revision": "8df37e99321ba82a0a0d",
+    "url": "/funcamp/static/js/main.fc0cee0f.chunk.js"
   },
   {
     "revision": "045d1b52d89bde94873b",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/funcamp/precache-manifest.0b1c525071795049166ce444493b3aa5.js"
+  "/funcamp/precache-manifest.15412838caf6c35a70bb11f6a55da891.js"
 );
 
 self.addEventListener('message', (event) => {

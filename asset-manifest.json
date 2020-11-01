@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/funcamp/static/css/main.9fc6a091.chunk.css",
-    "main.js": "/funcamp/static/js/main.06e006b6.chunk.js",
-    "main.js.map": "/funcamp/static/js/main.06e006b6.chunk.js.map",
+    "main.js": "/funcamp/static/js/main.97adf128.chunk.js",
+    "main.js.map": "/funcamp/static/js/main.97adf128.chunk.js.map",
     "runtime-main.js": "/funcamp/static/js/runtime-main.44b38aad.js",
     "runtime-main.js.map": "/funcamp/static/js/runtime-main.44b38aad.js.map",
-    "static/js/2.1143bb72.chunk.js": "/funcamp/static/js/2.1143bb72.chunk.js",
-    "static/js/2.1143bb72.chunk.js.map": "/funcamp/static/js/2.1143bb72.chunk.js.map",
+    "static/js/2.79b2eec3.chunk.js": "/funcamp/static/js/2.79b2eec3.chunk.js",
+    "static/js/2.79b2eec3.chunk.js.map": "/funcamp/static/js/2.79b2eec3.chunk.js.map",
     "index.html": "/funcamp/index.html",
-    "precache-manifest.2e47df130af4ef7b476efdddd99a4187.js": "/funcamp/precache-manifest.2e47df130af4ef7b476efdddd99a4187.js",
+    "precache-manifest.0b1c525071795049166ce444493b3aa5.js": "/funcamp/precache-manifest.0b1c525071795049166ce444493b3aa5.js",
     "service-worker.js": "/funcamp/service-worker.js",
     "static/css/main.9fc6a091.chunk.css.map": "/funcamp/static/css/main.9fc6a091.chunk.css.map",
-    "static/js/2.1143bb72.chunk.js.LICENSE.txt": "/funcamp/static/js/2.1143bb72.chunk.js.LICENSE.txt",
+    "static/js/2.79b2eec3.chunk.js.LICENSE.txt": "/funcamp/static/js/2.79b2eec3.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/funcamp/static/media/RobotoCondensed-Regular.6add4e22.woff2",
     "static/media/CountDownAndHomeCastle.scss": "/funcamp/static/media/castle_background.dadc45ca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.44b38aad.js",
-    "static/js/2.1143bb72.chunk.js",
+    "static/js/2.79b2eec3.chunk.js",
     "static/css/main.9fc6a091.chunk.css",
-    "static/js/main.06e006b6.chunk.js"
+    "static/js/main.97adf128.chunk.js"
   ]
 }

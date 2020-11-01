@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/funcamp/static/css/main.23351b0a.chunk.css",
+    "main.css": "/funcamp/static/css/main.e1813256.chunk.css",
     "main.js": "/funcamp/static/js/main.3a215a90.chunk.js",
     "main.js.map": "/funcamp/static/js/main.3a215a90.chunk.js.map",
     "runtime-main.js": "/funcamp/static/js/runtime-main.44b38aad.js",
@@ -8,9 +8,9 @@
     "static/js/2.79b2eec3.chunk.js": "/funcamp/static/js/2.79b2eec3.chunk.js",
     "static/js/2.79b2eec3.chunk.js.map": "/funcamp/static/js/2.79b2eec3.chunk.js.map",
     "index.html": "/funcamp/index.html",
-    "precache-manifest.5193c893d9311f8f25c8c1769c595844.js": "/funcamp/precache-manifest.5193c893d9311f8f25c8c1769c595844.js",
+    "precache-manifest.e6c97905ffaa540250ba9295fa10d144.js": "/funcamp/precache-manifest.e6c97905ffaa540250ba9295fa10d144.js",
     "service-worker.js": "/funcamp/service-worker.js",
-    "static/css/main.23351b0a.chunk.css.map": "/funcamp/static/css/main.23351b0a.chunk.css.map",
+    "static/css/main.e1813256.chunk.css.map": "/funcamp/static/css/main.e1813256.chunk.css.map",
     "static/js/2.79b2eec3.chunk.js.LICENSE.txt": "/funcamp/static/js/2.79b2eec3.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/funcamp/static/media/RobotoCondensed-Regular.6add4e22.woff2",
     "static/media/CountDownAndHomeCastle.scss": "/funcamp/static/media/castle_background.dadc45ca.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.44b38aad.js",
     "static/js/2.79b2eec3.chunk.js",
-    "static/css/main.23351b0a.chunk.css",
+    "static/css/main.e1813256.chunk.css",
     "static/js/main.3a215a90.chunk.js"
   ]
 }

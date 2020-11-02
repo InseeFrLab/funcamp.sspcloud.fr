@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useCallback } from "react";
 import styles from "./CountDownAndHomeCastle.scss";
 import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
@@ -73,6 +73,16 @@ export const CountDownAndHomeCastle: React.FC<{
         }
     );
 
+    const openDoc = useCallback(
+        () => window.open("http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/#pages/joueurs/"),
+        []
+    );
+
+    const scrollDown = useCallback(
+        () => window.scrollBy(0, window.innerHeight),
+        []
+    );
+
     return (
         <div
             className={`
@@ -97,18 +107,21 @@ export const CountDownAndHomeCastle: React.FC<{
                         </div>
 
                         <div className="animate__animated animate__backInUp">
-                            
+
                             <div>
-                                <button 
-                                className="startGameButton"
-                                onClick={()=> window.open("http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/#pages/joueurs/")}
+                                <button
+                                    className="startGameButton"
+                                    onClick={openDoc}
                                 >Commencer le jeu</button>
                             </div>
 
                             <div className="animate__animated animate__shakeY animate__delay-2s">
-                                <button className="slideDownButton"></button>
+                                <button
+                                    className="slideDownButton"
+                                    onClick={scrollDown}
+                                ></button>
                             </div>
-                            
+
 
                         </div>
 
@@ -117,38 +130,38 @@ export const CountDownAndHomeCastle: React.FC<{
             </div>
 
             {route.name === "countdown" &&
-                    <div className="countdownSidePanel">
+                <div className="countdownSidePanel">
 
+                    <div>
+
+                        <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
+                        <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
                         <div>
+                            <button onClick={buttonCallback}>Découvrir</button>
+                        </div>
 
-                            <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
-                            <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
-                            <div>
-                                <button onClick={buttonCallback}>Découvrir</button>
-                            </div>
+                        <div className="links">
 
-                            <div className="links">
+                            <a href="https://github.com/InseeFrLab">
+                                <img src={inseeFrLabImg} alt="InseeFrLab logo" />
+                            </a>
 
-                                <a href="https://github.com/InseeFrLab">
-                                    <img src={inseeFrLabImg} alt="InseeFrLab logo"/>
-                                </a>
-
-                                <a href="https://www.tchap.gouv.fr/#/room/#SSPCloudXDpAw6v:agent.finances.tchap.gouv.fr">
-                                    <img src={tchapImg} alt="Tchap logo"/>
-                                </a>
-
-                            </div>
+                            <a href="https://www.tchap.gouv.fr/#/room/#SSPCloudXDpAw6v:agent.finances.tchap.gouv.fr">
+                                <img src={tchapImg} alt="Tchap logo" />
+                            </a>
 
                         </div>
 
-
                     </div>
-                }
 
-            </div>
-        );
 
-    };
+                </div>
+            }
+
+        </div>
+    );
+
+};
 
 const Countdown: React.FC = () => {
 

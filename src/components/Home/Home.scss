@@ -1,6 +1,39 @@
 
 .Home {
 
-    border: 1px solid black;
+    > div:nth-of-type(1) {
+
+        margin-top: 60px;
+
+        display: flex;
+
+        $paddingLateral: 10%;
+
+        padding-left: $paddingLateral;
+        padding-right: $paddingLateral;
+
+        > div:nth-of-type(1) {
+            flex: 1;
+
+            padding-right: 10%;
+
+            > p {
+                
+
+                font-size: 1.2em;
+                line-height: 33px;
+
+                color: #000000;
+                opacity: 0.6;
+
+
+            }
+
+        }
+
+
+    }
+
+
 
 }

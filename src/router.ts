@@ -1,6 +1,8 @@
 import { createRouter, defineRoute } from "type-route";
 
-const root = defineRoute(process.env["PUBLIC_URL"]);
+const publicUrl = process.env["PUBLIC_URL"]
+
+const root =  publicUrl  ? defineRoute(publicUrl) : { "extend": defineRoute };
 
 export const { RouteProvider, useRoute, routes } = createRouter({
   "countdown": root.extend("/"),

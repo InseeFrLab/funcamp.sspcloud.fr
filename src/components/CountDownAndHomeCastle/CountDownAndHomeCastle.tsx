@@ -101,8 +101,15 @@ export const CountDownAndHomeCastle: React.FC<{
                         </div>
 
                         <div className="animate__animated animate__backInUp">
+                            
+                            <div>
+                                <button className="startGameButton">Commencer le jeu</button>
+                            </div>
 
-                            <button>Commencer le jeu</button>
+                            <div className="animate__animated animate__shakeY animate__delay-2s">
+                                <button className="slideDownButton"></button>
+                            </div>
+                            
 
                         </div>
 

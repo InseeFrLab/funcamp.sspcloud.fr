@@ -1,6 +1,6 @@
-# Website
+# This repo is the source code of this website
 
-https://garronej.github.io/funcamp/.
+https://funcamp.sspcloud.fr
 
 # Deploy on GitHub Pages
 

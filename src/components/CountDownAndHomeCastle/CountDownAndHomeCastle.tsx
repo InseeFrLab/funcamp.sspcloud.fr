@@ -90,7 +90,7 @@ export const CountDownAndHomeCastle: React.FC<{
                     <div className="home">
 
                         <div className="animate__animated animate__backInDown">
-                            <img src={icariusImg} className="js-tilt" />
+                            <img src={icariusImg} alt="Icarius game logo" className="js-tilt" />
                         </div>
 
                         <div className="animate__animated animate__backInRight">
@@ -124,11 +124,11 @@ export const CountDownAndHomeCastle: React.FC<{
                             <div className="links">
 
                                 <a href="https://github.com/InseeFrLab">
-                                    <img src={inseeFrLabImg} />
+                                    <img src={inseeFrLabImg} alt="InseeFrLab logo"/>
                                 </a>
 
                                 <a href="https://www.tchap.gouv.fr/#/room/#SSPCloudXDpAw6v:agent.finances.tchap.gouv.fr">
-                                    <img src={tchapImg} />
+                                    <img src={tchapImg} alt="Tchap logo"/>
                                 </a>
 
                             </div>

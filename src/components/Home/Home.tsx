@@ -10,7 +10,7 @@ export const Home: React.FC<{
     return (
         <div className="Home">
 
-            <div>
+            <section className="scheme">
 
                 <div>
                     <h1>Funcamp R</h1>
@@ -34,9 +34,9 @@ export const Home: React.FC<{
                 <iframe title="youtube vieo" width="560" height="315" src="https://www.youtube.com/embed/Quz2CfF0gmo?start=13" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 
-            </div>
+            </section>
 
-            <section>
+            <section className="sep">
 
                 <h1>Petits et grands débutants en R</h1>
 
@@ -52,7 +52,7 @@ export const Home: React.FC<{
             </section>
 
 
-            <div>
+            <section className="scheme">
 
                 <div>
                     <h1>La documentation</h1>
@@ -76,7 +76,7 @@ export const Home: React.FC<{
                 <iframe title="youtube vieo" width="560" height="315" src="https://www.youtube.com/embed/Quz2CfF0gmo?start=13" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 
-            </div>
+            </section>
 
 
 

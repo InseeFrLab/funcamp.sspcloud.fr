@@ -28,11 +28,8 @@ $breakpoint2: 1280px;
 
     }
 
-    > div:last-of-type {
-        margin-bottom: 60px;
-    }
 
-    > section {
+    > section.sep {
 
         background-color: #486880;
         text-align: center;
@@ -55,9 +52,16 @@ $breakpoint2: 1280px;
 
     }
 
-    > div {
+    /*
+    > section:last-of-type {
+        margin-bottom: 60px;
+    }
+    */
+
+    > section.scheme {
 
         margin-top: 60px;
+        margin-bottom: 60px;
 
         display: flex;
         flex-wrap: wrap;
@@ -89,7 +93,7 @@ $breakpoint2: 1280px;
             > button {
 
                 margin-top: 30px;
-                margin-bottom: 30px;
+                margin-bottom: 50px;
 
             }
 

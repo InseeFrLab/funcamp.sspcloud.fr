@@ -2,6 +2,7 @@ import "./Home.scss";
 import React, { useCallback } from "react";
 import { Route } from "type-route";
 import { routes } from "../../router";
+import gameScreenshotImg from "./game_screenshot.png";
 
 export const Home: React.FC<{
     route: Route<typeof routes.home>
@@ -72,8 +73,8 @@ export const Home: React.FC<{
 
                 </div>
 
-
-                <iframe title="youtube vieo" width="560" height="315" src="https://www.youtube.com/embed/Quz2CfF0gmo?start=13" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                
+                <img src={gameScreenshotImg} style={{ "width": "560px" }} />
 
 
             </section>

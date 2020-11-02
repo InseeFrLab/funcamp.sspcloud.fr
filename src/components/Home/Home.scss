@@ -1,5 +1,5 @@
 
-$breakpoint2: 1280px;
+$breakpoint: 992px;
 
 .Home {
 
@@ -46,6 +46,11 @@ $breakpoint2: 1280px;
         > p {
             width: 60%;
             margin: auto;
+
+            @media (max-width: $breakpoint) {
+                width: 90%;
+            }
+
         }
 
 
@@ -97,6 +102,25 @@ $breakpoint2: 1280px;
 
             }
 
+            @media (max-width: $breakpoint) {
+
+                min-width: unset;
+
+            }
+
+
+        }
+
+        > img {
+            width: 560px;
+            height: 426px;
+            @media (max-width: $breakpoint) {
+
+                width: unset;
+                max-width: 90%;
+                height: unset;
+
+            }
         }
 
     }

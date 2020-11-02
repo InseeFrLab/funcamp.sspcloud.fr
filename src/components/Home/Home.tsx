@@ -74,7 +74,7 @@ export const Home: React.FC<{
                 </div>
 
                 
-                <img src={gameScreenshotImg} style={{ "width": "560px" }} />
+                <img src={gameScreenshotImg} />
 
 
             </section>

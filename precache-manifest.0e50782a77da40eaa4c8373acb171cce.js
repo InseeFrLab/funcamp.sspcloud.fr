@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a83ab56815ef54b58d24cd6fb83ef8a",
+    "revision": "d4460bea767b9189f150bfea57f58a3e",
     "url": "/funcamp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funcamp/static/css/2.2ce0d9b2.chunk.css"
   },
   {
-    "revision": "0fb36b80fa7946e63bb9",
-    "url": "/funcamp/static/css/main.6aea084c.chunk.css"
+    "revision": "d8f227cfb0bdf13cbbdd",
+    "url": "/funcamp/static/css/main.1ce8b0e8.chunk.css"
   },
   {
     "revision": "33b62821f8ab3ac2d160",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funcamp/static/js/2.2e20f9a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0fb36b80fa7946e63bb9",
-    "url": "/funcamp/static/js/main.8df459d7.chunk.js"
+    "revision": "d8f227cfb0bdf13cbbdd",
+    "url": "/funcamp/static/js/main.e065732a.chunk.js"
   },
   {
     "revision": "045d1b52d89bde94873b",
@@ -174,5 +174,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dadc45caed9cc92fb81f2b4a4a35d16c",
     "url": "/funcamp/static/media/castle_background.dadc45ca.png"
+  },
+  {
+    "revision": "f40c81cea68365cd248f63e5b5819934",
+    "url": "/funcamp/static/media/slideDown.f40c81ce.svg"
   }
 ]);

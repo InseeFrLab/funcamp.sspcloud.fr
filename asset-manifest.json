@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed159665.chunk.css",
+    "main.css": "/static/css/main.1f42283d.chunk.css",
     "main.js": "/static/js/main.7cc19f0b.chunk.js",
     "main.js.map": "/static/js/main.7cc19f0b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2bd15a6a.js",
@@ -9,10 +9,10 @@
     "static/js/2.158c2ac7.chunk.js": "/static/js/2.158c2ac7.chunk.js",
     "static/js/2.158c2ac7.chunk.js.map": "/static/js/2.158c2ac7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9484c1a2b6c800f95b3650edd55178ab.js": "/precache-manifest.9484c1a2b6c800f95b3650edd55178ab.js",
+    "precache-manifest.d4c48083de950b7b464e2c81c23f829d.js": "/precache-manifest.d4c48083de950b7b464e2c81c23f829d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.2ce0d9b2.chunk.css.map": "/static/css/2.2ce0d9b2.chunk.css.map",
-    "static/css/main.ed159665.chunk.css.map": "/static/css/main.ed159665.chunk.css.map",
+    "static/css/main.1f42283d.chunk.css.map": "/static/css/main.1f42283d.chunk.css.map",
     "static/js/2.158c2ac7.chunk.js.LICENSE.txt": "/static/js/2.158c2ac7.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/RobotoCondensed-Regular.6add4e22.woff2",
     "static/media/CountDownAndHomeCastle.scss": "/static/media/slideDown.f40c81ce.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.2bd15a6a.js",
     "static/css/2.2ce0d9b2.chunk.css",
     "static/js/2.158c2ac7.chunk.js",
-    "static/css/main.ed159665.chunk.css",
+    "static/css/main.1f42283d.chunk.css",
     "static/js/main.7cc19f0b.chunk.js"
   ]
 }

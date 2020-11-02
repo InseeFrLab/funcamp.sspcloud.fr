@@ -1,4 +1,6 @@
 
+$breakpoint2: 1280px;
+
 .Home {
 
     > div:nth-of-type(1) {
@@ -6,6 +8,7 @@
         margin-top: 60px;
 
         display: flex;
+            flex-wrap: wrap;
 
         $paddingLateral: 10%;
 
@@ -14,6 +17,7 @@
 
         > div:nth-of-type(1) {
             flex: 1;
+            min-width: 350px;
 
             padding-right: 10%;
 
@@ -30,7 +34,6 @@
             }
 
         }
-
 
     }
 

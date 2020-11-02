@@ -46,10 +46,6 @@ export const CountDownAndHomeCastle: React.FC<{
 
     const { route } = params;
 
-    console.log(route.name);
-
-
-
     const {
         execute: buttonCallback,
         loading: isTransitioningToHome
@@ -161,8 +157,6 @@ const Countdown: React.FC = () => {
 
             while (!$ || !$(document).countdown100) {
 
-                console.log("tick");
-
                 await new Promise(
                     resolve => setTimeout(
                         resolve,
@@ -201,8 +195,6 @@ const Countdown: React.FC = () => {
         }
     );
 
-    console.log("display", isLoading);
-
     return (
         <div className="countdown">
             <div> {/* Countdown placeholder*/}
@@ -213,7 +205,7 @@ const Countdown: React.FC = () => {
                         <div
                             className={`${eventName} js-tilt`}
                             key={eventName}
-                        //style={{ "visibility": isLoading ? "hidden" : "unset" }}
+                            style={{ "visibility": isLoading ? "hidden" : "unset" }}
                         >
                             <h3 >{eventName}</h3>
                             <div>

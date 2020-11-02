@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44ae1b6d97bd94c4d167542848f19dd7",
+    "revision": "76a3ead3dbf8dbe69cdd4d73752fb11a",
     "url": "/index.html"
   },
   {
-    "revision": "33b62821f8ab3ac2d160",
+    "revision": "29220f169f3631201865",
     "url": "/static/css/2.2ce0d9b2.chunk.css"
   },
   {
-    "revision": "5e47da955b9be4bf0bd7",
+    "revision": "1838572d62ba03e3b61c",
     "url": "/static/css/main.9ef40743.chunk.css"
   },
   {
-    "revision": "33b62821f8ab3ac2d160",
-    "url": "/static/js/2.2e20f9a0.chunk.js"
+    "revision": "29220f169f3631201865",
+    "url": "/static/js/2.158c2ac7.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.2e20f9a0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.158c2ac7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e47da955b9be4bf0bd7",
-    "url": "/static/js/main.a12a0238.chunk.js"
+    "revision": "1838572d62ba03e3b61c",
+    "url": "/static/js/main.434445b8.chunk.js"
   },
   {
     "revision": "85863390001c88ddba8e",
@@ -174,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dadc45caed9cc92fb81f2b4a4a35d16c",
     "url": "/static/media/castle_background.dadc45ca.png"
+  },
+  {
+    "revision": "a1ce00f5c12247caf706447cc3088852",
+    "url": "/static/media/game_screenshot.a1ce00f5.png"
   },
   {
     "revision": "f40c81cea68365cd248f63e5b5819934",

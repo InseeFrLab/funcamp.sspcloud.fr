@@ -228,7 +228,7 @@ const Countdown: React.FC = () => {
                             </div>
                             <div>
                                 <span className="hours"></span>
-                                <span> heurs</span>
+                                <span> heure</span>
                             </div>
                             <div>
                                 <span className="minutes"></span>

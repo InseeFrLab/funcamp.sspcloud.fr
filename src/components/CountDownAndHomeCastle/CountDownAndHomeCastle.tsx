@@ -103,7 +103,10 @@ export const CountDownAndHomeCastle: React.FC<{
                         <div className="animate__animated animate__backInUp">
                             
                             <div>
-                                <button className="startGameButton">Commencer le jeu</button>
+                                <button 
+                                className="startGameButton"
+                                onClick={()=> window.open("http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/#pages/joueurs/")}
+                                >Commencer le jeu</button>
                             </div>
 
                             <div className="animate__animated animate__shakeY animate__delay-2s">

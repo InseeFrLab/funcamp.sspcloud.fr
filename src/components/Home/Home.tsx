@@ -1,5 +1,5 @@
 import "./Home.scss";
-import React from "react";
+import React, { useCallback } from "react";
 import { Route } from "type-route";
 import { routes } from "../../router";
 
@@ -23,6 +23,11 @@ export const Home: React.FC<{
                         quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer 
                         à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. 
                     </p>
+
+                    <button
+                        onClick={useCallback(() => window.open("http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/#pages/joueurs/"), [])}
+                    >Accéder au jeu et aux tutoriels R</button>
+
                 </div>
 
 
@@ -30,6 +35,49 @@ export const Home: React.FC<{
 
 
             </div>
+
+            <section>
+
+                <h1>Petits et grands débutants en R</h1>
+
+                <p>
+                    La composante dédiée aux techniques statistiques est délibèrement très 
+                    restreinte : il s'agit surtout d'apprendre à maîtriser le cadre 
+                    général de l'environnement R, d'autres formations plus avancées 
+                    répondant aux besoins des statisticiens avertis.
+                </p>
+
+
+
+            </section>
+
+
+            <div>
+
+                <div>
+                    <h1>La documentation</h1>
+                    <h3>Un espace pour les formateurs et les développeurs</h3>
+                    <p> 
+                        Pour les esprits curieux, vous pouvez consulter la documentation 
+                        qui regroupe des informations complémentaires sur le projet (la philosophie 
+                        du projet, son histoire, ses acteurs... et son possible devenir), 
+                        un espace dédié aux ressouces pour les formateurs (principes pédagogiques et 
+                        présentation de la trame suivie) et pour les développeurs, un ensemble de ressources 
+                        pour contribuer au développement du grimoire de tutoriels R et du jeu icaRius.
+                    </p>
+
+                    <button
+                        onClick={useCallback(() => window.open("http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/#pages/joueurs/"), [])}
+                    >Consulter la documentation</button>
+
+                </div>
+
+
+                <iframe title="youtube vieo" width="560" height="315" src="https://www.youtube.com/embed/Quz2CfF0gmo?start=13" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+
+            </div>
+
 
 
         </div>

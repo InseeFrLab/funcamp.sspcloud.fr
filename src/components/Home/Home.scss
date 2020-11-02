@@ -3,12 +3,64 @@ $breakpoint2: 1280px;
 
 .Home {
 
-    > div:nth-of-type(1) {
+    button {
+
+        background: none;
+        border: 3px solid black;
+        border-radius: 15px;
+        font-size: 1.3em;
+        line-height: 1.3em;
+
+    }
+
+    h1 {
+
+        font-weight: 500;
+        font-size: 1.7em;
+
+        color: #000000;
+
+    }
+
+    h3 {
+
+        color: grey;
+
+    }
+
+    > div:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    > section {
+
+        background-color: #486880;
+        text-align: center;
+
+        $paddingVertical: 40px;
+
+        padding-top: $paddingVertical;
+        padding-bottom: $paddingVertical;
+
+        > h1, > p {
+            color: white;
+        }
+
+        > p {
+            width: 60%;
+            margin: auto;
+        }
+
+
+
+    }
+
+    > div {
 
         margin-top: 60px;
 
         display: flex;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
 
         $paddingLateral: 10%;
 
@@ -21,22 +73,6 @@ $breakpoint2: 1280px;
 
             padding-right: 10%;
 
-            > h1 {
-
-                font-weight: 500;
-                font-size: 36px;
-                line-height: 42px;
-
-                color: #000000;
-
-
-            }
-
-            > h3 {
-
-                color: grey;
-
-            }
 
             > p {
                 
@@ -47,6 +83,13 @@ $breakpoint2: 1280px;
                 color: #000000;
                 opacity: 0.6;
 
+
+            }
+
+            > button {
+
+                margin-top: 30px;
+                margin-bottom: 30px;
 
             }
 

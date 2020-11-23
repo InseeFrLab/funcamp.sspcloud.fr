@@ -5,7 +5,7 @@
 * [La philosophie du projet](philosophie.md)
 * [Solution complète](solution.md)
 * [Espace contributeur](contributeurs/README.md)
-  * [le grimoire](contributeurs/contributeurs_2.md)
+  * [Le grimoire](contributeurs/contributeurs_2.md)
   * [The game engine](contributeurs/contributeurs_3.md)
 * [Espace formateurs](formateurs/README.md)
   * [Trame de formation](formateurs/formateurs_1.md)

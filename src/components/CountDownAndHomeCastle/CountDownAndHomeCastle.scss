@@ -51,7 +51,7 @@ $breakpoint: 992px;
       height: 100%;
       top: 0;
       left: 0;
-      background-color: rgba(0,0,0,0.20);
+      background-color: rgba(0,0,0,0.30);
 
       transition: background-color $transitionDuration;
 
@@ -105,15 +105,13 @@ $breakpoint: 992px;
       > div {
 
 
-        //border: blue 5px solid;
-        margin-bottom: 395px;
-        margin-right: 92px;
         text-align: center;
+
 
         h1 {
           color: White;
           font-weight: 500;
-          font-size: 1.5em;
+          font-size: 2em;
         }
 
 

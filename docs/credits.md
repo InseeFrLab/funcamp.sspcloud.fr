@@ -1,4 +1,8 @@
-# Les acteurs du projet
+---
+description: Les acteurs du projet
+---
+
+# Qui sommes-nous ?
 
 ## Qui sommes-nous ?
 

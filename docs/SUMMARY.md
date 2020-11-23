@@ -6,8 +6,8 @@
 * [le jeu icaRius et le moteur solarus](contributeurs_3.md)
 * [le grimoire](contributeurs_2.md)
 * [Espace pour les contributeurs au développement](contributeurs_1.md)
-* [Les acteurs du projet](credits.md)
 * [Espace pédagogique - trame de formation](formateurs_2.md)
 * [Espace pédagogique - Principes généraux](formateurs_1.md)
 * [Solution complète](solution.md)
+* [Qui sommes-nous ?](credits.md)
 

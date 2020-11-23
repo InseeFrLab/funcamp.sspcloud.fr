@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Une expérience vidéoludique d'apprentissage](README.md)
+* [FuncampR](README.md)
 * [Démarage rapide](demarage_rapide.md)
 * [La philosophie du projet](philosophie.md)
 * [Solution complète](solution.md)

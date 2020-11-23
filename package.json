@@ -35,7 +35,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build && cd build && cp index.html 404.html",
+    "predeploy": "yarn run build && cd build && cp index.html 404.html && cp CNAME build/",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

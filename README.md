@@ -1,4 +1,4 @@
-# About the Funcamp project in general. 
+# Regarding the Funcamp project in general. 
 
 ![Funcamp-Frise](https://user-images.githubusercontent.com/6702424/99959108-baf09d80-2d8a-11eb-9efc-934ecd78ac2c.png)
 
@@ -21,9 +21,9 @@ Index of the rest of the project's source code:
 
 
 [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) is a react app.  
-The code on this repo (`docs/` folder set aside) it the source code of the website. 
+The code on this repo (`docs/` folder set aside) is the source code of the website. 
 
-First thing, if you are not colaborator, is to fork the repo:  
+First thing, if you are not collaborator, is to fork the repo:  
 ![image](https://user-images.githubusercontent.com/6702424/99956971-381a1380-2d87-11eb-8b2a-803115baa4f4.png)
 
 Then  
@@ -39,7 +39,7 @@ yarn start
 
 #...Test your changes...
 ```
-If everything looks good you can submit a pull request  
+If everything looks good, you can submit a pull request  
 ```bash
 git checkout -b my_changes
 git add -A
@@ -47,11 +47,11 @@ git commit -am "My changes"
 git push origin my_changes
 ```
 The come back here (https://github.com/InseeFrLab/funcamp.sspcloud.fr), GitHub will automatically
-suggest you to open a PR.
+suggest you open a PR.
 
-To make the changes visible for everyone you need to be administrator of the repo.  
+To make the changes visible for everyone you need to be an administrator of the repo.  
 [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) is hosted here on github using [github pages](https://pages.github.com).  
-If you go over to the `Settings` page of this repo and scroll down you will find:  
+If you go over to the `Settings` page of this repo and scroll down, you will find:  
 ![image](https://user-images.githubusercontent.com/6702424/99955231-3f8bed80-2d84-11eb-84a3-871badf5f2a6.png)
 This means that everything published on the `gh-pages` branch of this repo is public at [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr).  
 
@@ -63,14 +63,14 @@ yarn run deploy
 # Contributing to [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr) 
 
 The documentation website is not hosted via github page but with [gitbook.com](https://www.gitbook.com) 
-the easyer way to contribute to the documentation is to request access to the GitBook space to one
+the easier way to contribute to the documentation is to request access to the GitBook space to one
 of the maintainers by opening an issue. 
 
-Once logged in you will get access to a full editor, no need to mess around with code 😉  
+Once logged in you will get access to a full editor, no need to mess around with the code 😉  
 ![image](https://user-images.githubusercontent.com/6702424/99957720-719f4e80-2d88-11eb-949b-a2816213b6ef.png)
 
 The sources for the pages, however, are synced bidirectionally in the `docs/` folder. 
-In consequence it is also possible to modify directly the markdown (`.md`) files in the `docs/` folder directly,
+In consequence it is also possible to modify directly, the markdown (`.md`) files in the `docs/` folder directly,
 the changes will be published automatically.  
 
-For publishing translation or new version of the documentation without supressing the previous one there is [the variation feature of gitbook](https://docs.gitbook.com/editing-content/variants)
+For publishing translation or new version of the documentation without suppressing the previous one, there is [the variation feature of gitbook](https://docs.gitbook.com/editing-content/variants)

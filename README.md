@@ -46,8 +46,7 @@ git commit -am "My changes"
 The come back here (https://github.com/InseeFrLab/funcamp.sspcloud.fr), GitHub will automatically
 suggest you to open a PR.
 
-## Making the changes public on [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) (for admins)
-
+To make the changes visible for everyone you need to be administrator of the repo.  
 [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) is hosted here on github using [github pages](https://pages.github.com).  
 If you go over to the `Settings` page of this repo and scroll down you will find:  
 ![image](https://user-images.githubusercontent.com/6702424/99955231-3f8bed80-2d84-11eb-84a3-871badf5f2a6.png)

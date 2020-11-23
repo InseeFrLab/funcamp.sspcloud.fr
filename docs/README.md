@@ -9,12 +9,8 @@ Parcourir ce grimoire vous permettra d’**apprendre, pas à pas, le langage des
 
 {% embed url="https://www.youtube.com/watch?v=Quz2CfF0gmo&feature=emb\_title" %}
 
-
-
-
-
 Le Funcamp R s'adresse avant tout à celles et ceux qui, **petits et grands débutants en R**, souhaitent inscrire leur apprentissage dans une démarche amusante, où des phases de jeu et des phases de pratiques en R alternent. Il a été conçu pour **les agents du système statistique public**, qui retrouveront dans l'aventure d'icaRius quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. La composante dédiée aux techniques statistiques est délibèrement très restreinte : il s'agit surtout d'apprendre à maîtriser le cadre général de l'environnement R, d'autres formations plus avancées répondant aux besoins des statisticiens avertis.   
- **Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Jouer \(et apprendre\)](pages/joueurs.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.  
+ **Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Jouer \(et apprendre\)](demarage_rapide.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.  
 
 ![](.gitbook/assets/icarius-visuel-a%20%281%29.png)
 

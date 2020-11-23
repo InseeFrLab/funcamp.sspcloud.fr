@@ -44,6 +44,7 @@ If everything looks good you can submit a pull request
 git checkout -b my_changes
 git add -A
 git commit -am "My changes"
+git push origin my_changes
 ```
 The come back here (https://github.com/InseeFrLab/funcamp.sspcloud.fr), GitHub will automatically
 suggest you to open a PR.
@@ -70,4 +71,6 @@ Once logged in you will get access to a full editor, no need to mess around with
 
 The sources for the pages, however, are synced bidirectionally in the `docs/` folder. 
 In consequence it is also possible to modify directly the markdown (`.md`) files in the `docs/` folder directly,
-the changes will be published automatically. 
+the changes will be published automatically.  
+
+For publishing translation or new version of the documentation without supressing the previous one there is [the variation feature of gitbook](https://docs.gitbook.com/editing-content/variants)

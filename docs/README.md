@@ -1,7 +1,7 @@
 # Accueil
 
 {% hint style="info" %}
-Les instrucition sur l'installation du jeux se trouve ICI
+Les instrucition sur l'installation du jeux se trouve [ICI](https://docs.funcamp.sspcloud.fr/demarage_rapide)
 {% endhint %}
 
 Soyez le/la bienvenu\(e\) au Funcamp R. Ce site rassemble l'ensemble des supports pédagogiques et ludiques relatifs à la formation que vous vous apprêtez à suivre. Pardon : cette page ouvre le grimoire IGoR, qui vous accompagnera dans **l’épopée statistico-ludique dont vous êtes le héros / l’héroïne**. Vous y trouverez, distillée au fur et à mesure des chapitres enluminés, toute la sagesse accumulée par ces mages qui, dans l’ombre, ont imaginé les épreuves que vous aurez à franchir.  

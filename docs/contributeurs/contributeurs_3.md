@@ -4,6 +4,8 @@ description: Le game engine Solarus
 
 # Le moteur du jeux
 
+![](../.gitbook/assets/image%20%2816%29.png)
+
 Solarus est un moteur de jeu Open Source, spécifiquement conçu pour créer des "role playing games" \(RPG\) en 2D, à l'image de _The Legend of Zelda: A Link to the Past_ ou _Secret of Mana_ sur Super Nintendo. Le site [solarus-games](https://www.solarus-games.org/) permet d'accèder à l'ensemble des ressources nécessaires pour programmer avec le moteur Solarus : le moteur de jeu, les packs de ressources \(ensemble de graphismes appelés tilesets, exemples de script\), les tutoriels...
 
 Le moteur Solarus est codé en C++, avec la bibliothèque SDL et un backend OpenGL. Les jeux faits avec Solarus sont appelés des quêtes et sont faits en Lua. Pour "jouer" les quêtes, il suffit de télécharger le [runner Solarus](https://www.solarus-games.org/fr/solarus/download). Mais pour développer sa propre quête ou pour contribuer à l'édition d'une quête dans une optique communautaire, il vous faudra installer le [Solarus Quest Editor](https://www.solarus-games.org/fr/solarus/download)

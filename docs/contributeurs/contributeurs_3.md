@@ -2,7 +2,7 @@
 description: Présentation de Solarus
 ---
 
-# The game engine
+# Le moteur du jeux
 
 Solarus est un moteur de jeu Open Source, spécifiquement conçu pour créer des "role playing games" \(RPG\) en 2D, à l'image de _The Legend of Zelda: A Link to the Past_ ou _Secret of Mana_ sur Super Nintendo. Le site [solarus-games](https://www.solarus-games.org/) permet d'accèder à l'ensemble des ressources nécessaires pour programmer avec le moteur Solarus : le moteur de jeu, les packs de ressources \(ensemble de graphismes appelés tilesets, exemples de script\), les tutoriels...
 

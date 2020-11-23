@@ -6,7 +6,7 @@
 * [Solution complète](solution.md)
 * [Espace contributeur](contributeurs/README.md)
   * [Le grimoire](contributeurs/contributeurs_2.md)
-  * [The game engine](contributeurs/contributeurs_3.md)
+  * [Le moteur du jeux](contributeurs/contributeurs_3.md)
 * [Espace formateurs](formateurs/README.md)
   * [Trame de formation](formateurs/formateurs_1.md)
 * [Qui sommes-nous ?](credits.md)

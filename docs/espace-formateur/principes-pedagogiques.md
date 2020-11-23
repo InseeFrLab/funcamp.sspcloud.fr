@@ -1,8 +1,4 @@
----
-description: Principe pédagogiques
----
-
-# Espace formateurs
+# Principes pédagogiques
 
 **Attention spoiler** : la trame pédagogique est présentée de concert avec l'habillage narratif :-\)
 

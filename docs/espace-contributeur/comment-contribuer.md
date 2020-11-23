@@ -1,8 +1,4 @@
----
-description: Espace pour les contributeurs au développement
----
-
-# Espace contributeur
+# Comment contribuer
 
 A l'image des deux environnements qu'il propose aux joueurs/stagiaires avec le jeu icaRius d'une part et le grimoire IGoR d'autre part, le projet Funcamp-R comporte deux volets pour lesquels il est possible de contribuer :
 

@@ -142,7 +142,7 @@ export const CountDownAndHomeCastle: React.FC<{
 
                         <div className="links">
 
-                            <a href="https://github.com/InseeFrLab">
+                            <a href="https://github.com/InseeFrLab/funcamp.sspcloud.fr">
                                 <img src={inseeFrLabImg} alt="InseeFrLab logo" />
                             </a>
 

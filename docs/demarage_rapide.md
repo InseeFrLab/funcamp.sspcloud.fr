@@ -41,7 +41,13 @@ Vous pouvez installer ensemble le jeu et le grimoire sur votre poste Windows. Vo
 * cette page d'accueil comporte le lien vers chaque chapitre du grimoire, et aussi vers le jeu : laissez-vous guider !
 * attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, `F:\MonRepertoire\funcampr`  fonctionnera, mais pas F:\Mon Repertoire\funcampr
 
+{% embed url="https://www.youtube.com/watch?v=AeqowV196ag" %}
+
+
+
 Vous pouvez aussi ne télécharger que le jeu, beaucoup plus léger \(seulement 30 mo\) et utiliser la version en ligne du grimoire pour les tutoriels. Si vous ne voulez installer que le jeu, voici comment procéder : - téléchargez uniquement le jeu icaRius en cliquant sur \[le lien ici\]\(https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip\) - le fichier téléchargé s'appelle : icarius-windows.zip - dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius. - à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
+
+{% embed url="https://youtu.be/44b7bTG601I" %}
 
 ### ... ou jouer et apprendre en ligne
 
@@ -78,4 +84,8 @@ Pour lancer un tutoriel
 * à la fin d'un chapitre, n'oubliez pas de cliquer sur l'icône en forme de corbeille sur la page SSPCloud : cela permet de refermer le grimoire \(et d'économiser un peu de puissance sur les serveurs : un geste vert, en sorte\).
 
 Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
+
+{% embed url="https://youtu.be/-C3J3KbPXpg" %}
+
+
 

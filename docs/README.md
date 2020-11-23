@@ -1,4 +1,4 @@
-# Funcamp R - une expérience vidéoludique d'apprentissage
+# Une expérience vidéoludique d'apprentissage
 
 {% hint style="info" %}
 Les instrucition sur l'installation du jeux se trouve [ICI](https://docs.funcamp.sspcloud.fr/demarage_rapide)

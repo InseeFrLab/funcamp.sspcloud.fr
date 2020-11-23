@@ -1,6 +1,6 @@
 # About the Funcamp project in general. 
 
-![world_map](https://user-images.githubusercontent.com/6702424/99958991-9399d080-2d8a-11eb-9e86-861b0b6a0861.png)
+![Funcamp-Frise](https://user-images.githubusercontent.com/6702424/99959108-baf09d80-2d8a-11eb-9efc-934ecd78ac2c.png)
 
 This repo is the source code of the [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) website.  
 Inside the `docs/` are the sources for the documentation website [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr).  

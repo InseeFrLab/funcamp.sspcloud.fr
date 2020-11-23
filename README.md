@@ -60,6 +60,9 @@ There is a script setup that takes the `build` folder and publish it over to `gh
 yarn run deploy
 ```
 
+NOTE: After deploying there is an annoying bug, the custom domain (funcamp.sspcloud.fr) in the GitHub settings 
+need to be set again.
+
 # Contributing to [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr) 
 
 The documentation website is not hosted via github page but with [gitbook.com](https://www.gitbook.com) 

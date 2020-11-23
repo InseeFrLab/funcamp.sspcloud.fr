@@ -1,5 +1,5 @@
 
-import React, { useCallback } from "react";
+import React, { useCallback, useMemo } from "react";
 import styles from "./CountDownAndHomeCastle.scss";
 import { routes } from "../../router";
 import { useAsyncAbortable } from "react-async-hook";
@@ -9,36 +9,30 @@ import tchapImg from "./tchap.png";
 import inseeFrLabImg from "./inseeFrLab.png";
 import icariusImg from "./icarius.png";
 import "animate.css/animate.css";
-
-declare const $: Function | undefined;
+import { getEvtTimeRemaining, CountdownTargetDate } from "./timeRemaining";
+import { useStatefulEvt } from "evt/hooks";
 
 export const routeGroup = createGroup([
     routes.home,
     routes.countdown
 ]);
 
-const upcomingEvents: {
-    eventName: string;
-    endtimeYear: number;
-    endtimeMonth: number;
-    endtimeDate: number;
-    endtimeHours: number;
-}[] = [
-        {
-            "eventName": "Orléans",
-            "endtimeYear": 2020,
-            "endtimeMonth": 11,
-            "endtimeDate": 24,
-            "endtimeHours": 9
-        },
-        {
-            "eventName": "Nantes",
-            "endtimeYear": 2020,
-            "endtimeMonth": 12,
-            "endtimeDate": 15,
-            "endtimeHours": 9
-        }
-    ];
+const upcomingEvents: { [eventName: string]: CountdownTargetDate; } = {
+    "Orléans": {
+        "endtimeYear": 2020,
+        "endtimeMonth": 11,
+        "endtimeDate": 24,
+        "endtimeHours": 9
+    },
+    "Nantes": {
+        "endtimeYear": 2020,
+        "endtimeMonth": 12,
+        "endtimeDate": 15,
+        "endtimeHours": 9
+    }
+}
+
+
 
 export const CountDownAndHomeCastle: React.FC<{
     route: Route<typeof routeGroup>;
@@ -91,7 +85,26 @@ export const CountDownAndHomeCastle: React.FC<{
       `}
         >
             <div className="castle">
-                {route.name === "countdown" && <Countdown />}
+                {route.name === "countdown" &&
+
+                    <div className="countdown">
+                        <div> {/* Countdown placeholder*/}
+
+                            <h1>Prochain Bootcamps</h1>
+                            <div>
+                                {Object.keys(upcomingEvents).map(eventName => <Countdown
+                                    countdownTargetDate={upcomingEvents[eventName]}
+                                    eventName={eventName}
+                                    key={eventName}
+                                />)}
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                }
                 {route.name === "home" && (
                     <div className="home">
 
@@ -163,90 +176,69 @@ export const CountDownAndHomeCastle: React.FC<{
 
 };
 
-const Countdown: React.FC = () => {
+const Countdown: React.FC<{ countdownTargetDate: CountdownTargetDate; eventName: string; }> = params => {
 
-    const { loading: isLoading } = useAsyncAbortable(
-        async abortSignal => {
+    const { countdownTargetDate, eventName } = params;
 
-            while (!$ || !$(document).countdown100) {
-
-                await new Promise(
-                    resolve => setTimeout(
-                        resolve,
-                        100
-                    )
-                );
-
-
-                if (abortSignal.aborted) {
-                    return;
-                }
-
-            }
-
-            upcomingEvents.forEach(({
-                eventName,
-                endtimeYear,
-                endtimeDate,
-                endtimeMonth,
-                endtimeHours
-            }) => (window as any).$(`.${eventName}`).countdown100({
-                endtimeYear,
-                endtimeMonth,
-                endtimeDate,
-                endtimeHours,
-                "endtimeMinutes": 0,
-                "endtimeSeconds": 0,
-                "timeZone": "Europe/Paris"
-            }));
-
-        },
-        [],
-        {
-            "executeOnMount": true,
-            "executeOnUpdate": true
-        }
+    const evtTimeRemaining = useMemo(
+        () => getEvtTimeRemaining(countdownTargetDate),
+        [countdownTargetDate]
     );
+
+    useStatefulEvt([evtTimeRemaining]);
+
+    const { days, hours, minutes, seconds, total } = evtTimeRemaining.state;
+
+
+    const isEndedFromMoreThan8Hours = total < 0 && Math.abs(total) > 1000 * 3600 * 8;
+
+    if (isEndedFromMoreThan8Hours) {
+        return null;
+    }
 
     return (
-        <div className="countdown">
-            <div> {/* Countdown placeholder*/}
+        <div
+            className={`${eventName} js-tilt`}
+            key={eventName}
+        >
+            <h3>{eventName}</h3>
 
-                <h1>Prochain Bootcamps</h1>
-                <div>
-                    {upcomingEvents.map(({ eventName }) => (
-                        <div
-                            className={`${eventName} js-tilt`}
-                            key={eventName}
-                            style={{ "visibility": isLoading ? "hidden" : "unset" }}
-                        >
-                            <h3 >{eventName}</h3>
+            { total < 0 ?
+                <h2>En cours maintenant</h2> : (
+                    <>
+                        {
+                            days !== 0 &&
                             <div>
-                                <span className="days"></span>
-
+                                <span>{days}</span>
                                 <span> Jours</span>
                             </div>
+                        }
+                        {
+                            hours !== 0 &&
                             <div>
-                                <span className="hours"></span>
+                                <span>{hours}</span>
                                 <span> heure</span>
                             </div>
+                        }
+                        {
+                            days === 0 &&
                             <div>
-                                <span className="minutes"></span>
+                                <span>{minutes}</span>
                                 <span> min</span>
                             </div>
+                        }
+                        {
+                            days === 0 && hours === 0 &&
                             <div>
-                                <span className="seconds"></span>
+                                <span>{seconds}</span>
                                 <span> sec</span>
                             </div>
-
-                        </div>
-                    ))}
-                </div>
-
-
-            </div>
+                        }
+                    </>)}
         </div>
+
     );
+
 
 };
 

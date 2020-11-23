@@ -1,5 +1,5 @@
 ---
-description: Présentation de Solarus
+description: Le game engine Solarus
 ---
 
 # Le moteur du jeux

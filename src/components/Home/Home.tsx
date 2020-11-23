@@ -74,7 +74,7 @@ export const Home: React.FC<{
                 </div>
 
                 
-                <img src={gameScreenshotImg} />
+                <img src={gameScreenshotImg} alt="game screenshot"/>
 
 
             </section>

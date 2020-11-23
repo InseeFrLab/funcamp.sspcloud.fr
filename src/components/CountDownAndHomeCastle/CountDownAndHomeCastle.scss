@@ -18,7 +18,7 @@ $breakpoint: 992px;
 
   position: relative;
   z-index: 1;
-  $width_of_castle: 75%;
+  $width_of_castle: 70%;
 
   .castle {
 
@@ -51,7 +51,7 @@ $breakpoint: 992px;
       height: 100%;
       top: 0;
       left: 0;
-      background-color: rgba(0,0,0,0.45);
+      background-color: rgba(0,0,0,0.40);
 
       transition: background-color $transitionDuration;
 
@@ -245,18 +245,16 @@ $breakpoint: 992px;
 
       margin-top: 40%;
 
-      width: 100%;
+      width: 70%;
 
-      //border: 1px solid black;
-
-      padding-left: 20px;
+      padding-left: 40px;
 
       > h1 {
       
         font-weight: 500;
-        font-size: 1.5em;
+        font-size: 2.5em;
 
-        color: #555555;
+        color:black;
 
         @media (max-width: $breakpoint) {
           font-size: 1em;
@@ -267,9 +265,8 @@ $breakpoint: 992px;
       > h2 {
 
 
-        font-weight: 300;
-        font-size: 1em;
-        color: #999999;
+        font-weight: 400;
+        font-size: 1.1em;
 
         @media (max-width: $breakpoint) {
           font-size: 0.8em;
@@ -281,18 +278,13 @@ $breakpoint: 992px;
 
         margin-top: 20px;
 
-        font: unset;
-
-        width: 161px;
-        height: 64px;
+        background: none;
         border: 3px solid black;
-        border-radius: 0;
-        font-size: 1.5em;
-        font-weight: 500;
+        border-radius: 15px;
+        font-size: 1.3em;
+        line-height: 1.3em;
 
-        -webkit-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
-        -moz-box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
-        box-shadow: 14px 16px 31px -14px rgba(0,0,0,0.53);
+        width: 50%;
 
       }
 
@@ -321,12 +313,9 @@ $breakpoint: 992px;
       @media (max-width: $breakpoint) {
 
         margin-top: 0%;
-
-        > div {
-
-          text-align: center;
-
-        }
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
 
       }
 

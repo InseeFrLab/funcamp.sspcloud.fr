@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Accueil](README.md)
+* [Funcamp R - une expérience vidéoludique d'apprentissage](README.md)
 * [Démarage rapide](demarage_rapide.md)
 * [La philosophie du projet](philosophie.md)
 * [Solution complète](solution.md)

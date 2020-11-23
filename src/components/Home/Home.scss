@@ -24,7 +24,8 @@ $breakpoint: 992px;
 
     h3 {
 
-        color: grey;
+        color:#486880;
+        font-weight: 400;
 
     }
 
@@ -38,6 +39,11 @@ $breakpoint: 992px;
 
         padding-top: $paddingVertical;
         padding-bottom: $paddingVertical;
+
+        $marginSide: 60px;
+
+        margin-left: $marginSide;
+        margin-right: $marginSide;
 
         > h1 {
             margin-top: 0;
@@ -57,7 +63,9 @@ $breakpoint: 992px;
 
         }
 
-
+        -webkit-box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
+        -moz-box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
+        box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
 
     }
 

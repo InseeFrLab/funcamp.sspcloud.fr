@@ -75,7 +75,8 @@ $breakpoint: 992px;
         display: flex;
         flex-wrap: wrap;
 
-        $paddingLateral: 10%;
+        //$paddingLateral: 10%;
+        $paddingLateral: 18%;
 
         padding-left: $paddingLateral;
         padding-right: $paddingLateral;
@@ -109,6 +110,7 @@ $breakpoint: 992px;
             @media (max-width: $breakpoint) {
 
                 min-width: unset;
+                padding-right: 0%;
 
             }
 
@@ -126,6 +128,20 @@ $breakpoint: 992px;
 
             }
         }
+
+        @media (max-width: 1600px) {
+            $paddingLateral: 12%;
+            padding-left: $paddingLateral;
+            padding-right: $paddingLateral;
+        }
+
+
+        @media (max-width: $breakpoint) {
+            $paddingLateral: 7%;
+            padding-left: $paddingLateral;
+            padding-right: $paddingLateral;
+        }
+
 
     }
 

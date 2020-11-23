@@ -30,7 +30,7 @@ const upcomingEvents: { [eventName: string]: CountdownTargetDate; } = {
         "endtimeDate": 15,
         "endtimeHours": 9
     }
-}
+};
 
 
 

@@ -26,7 +26,7 @@ export const Home: React.FC<{
                     </p>
 
                     <button
-                        onClick={useCallback(() => window.open("http://inseefrlab.github.io/funcamp-r/#pages/joueurs/"), [])}
+                        onClick={useCallback(() => window.open("https://docs.funcamp.sspcloud.fr/demarage_rapide"), [])}
                     >Accéder au jeu et aux tutoriels R</button>
 
                 </div>
@@ -68,7 +68,7 @@ export const Home: React.FC<{
                     </p>
 
                     <button
-                        onClick={useCallback(() => window.open("http://inseefrlab.github.io/funcamp-r/#pages/joueurs/"), [])}
+                        onClick={useCallback(() => window.open("https://docs.funcamp.sspcloud.fr/formateurs"), [])}
                     >Consulter la documentation</button>
 
                 </div>

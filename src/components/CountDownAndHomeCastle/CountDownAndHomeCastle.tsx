@@ -74,7 +74,7 @@ export const CountDownAndHomeCastle: React.FC<{
     );
 
     const openDoc = useCallback(
-        () => window.open("http://inseefrlab.github.io/funcamp-r/#pages/joueurs/"),
+        () => window.open("https://docs.funcamp.sspcloud.fr/demarage_rapide"),
         []
     );
 

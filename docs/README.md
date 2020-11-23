@@ -20,8 +20,8 @@ Le Funcamp R s'adresse avant tout à celles et ceux qui, **petits et grands déb
 
  Cet espace propose également, pour les esprits curieux, des informations complémentaires :
 
-* la [philosophie du projet](pages/philosophie.md), son histoire, ses acteurs... et son possible devenir ! 
-* pour les formateurs, un espace dédié aux [principes pédagogiques](pages/formateurs_1.md) et à la présentation de la [trame suivie](pages/formateurs_2.md). 
-* pour les développeurs, un ensemble de ressources pour [contribuer au développement](pages/contributeurs_1.md) du [grimoire de tutoriels R](pages/contributeurs_2.md) et du [jeu icaRius](pages/contributeurs_3.md).
-* l'identité des [auteurs de cette aventure](pages/credits.md) : la présentation de l'équipe de conception du Funcamp R, et des acteurs qui nous ont aidés.
+* la [philosophie du projet](philosophie.md), son histoire, ses acteurs... et son possible devenir ! 
+* pour les formateurs, un espace dédié aux [principes pédagogiques](formateurs_1.md) et à la présentation de la [trame suivie](formateurs_2.md). 
+* pour les développeurs, un ensemble de ressources pour [contribuer au développement](contributeurs_1.md) du [grimoire de tutoriels R](contributeurs_2.md) et du [jeu icaRius](contributeurs_3.md).
+* l'identité des [auteurs de cette aventure](credits.md) : la présentation de l'équipe de conception du Funcamp R, et des acteurs qui nous ont aidés.
 

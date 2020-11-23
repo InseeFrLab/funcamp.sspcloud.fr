@@ -15,7 +15,7 @@
 
 **cadre narratif** Début de l’aventure dans la maison d'icaRius. Découverture du grimoire IgoR et de la langue des Runes
 
-![](../.gitbook/assets/enigme01.png)
+![](.gitbook/assets/enigme01.png)
 
 _\(l’aventure continue…\)_ Exploration des plaines de Statis. Rencontre de Statia, qui offre à icaRius son épée et lui demande de retrouver les 6 Runes. Entrée dans le village de Kokoro
 
@@ -29,7 +29,7 @@ _\(l’aventure continue…\)_ Exploration des plaines de Statis. Rencontre de S
 
 **cadre narratif** Dans le village de Kokoro, icaRius aide la fermière et le fermier à recomposer le livre des pontes pour trouver la meilleure poule pondeuse En récompose, le mage Tourep lui offre un bouclier
 
-![](../.gitbook/assets/enigme02.png)
+![](.gitbook/assets/enigme02.png)
 
 _\(l’aventure continue…\)_ Le soldat laisse passer icaRius et sortir du village Kokoro 1er boss \(le papillon géant\) et obtention d’une première Rune. Entrée dans le village de GrissGrass
 
@@ -39,7 +39,7 @@ _\(l’aventure continue…\)_ Le soldat laisse passer icaRius et sortir du vill
 
 **cadre narratif** Le chef du village de GrissGrass demande à icaRius de trouver quelle est l’exploitation la plus productive en herbe de Mandragore.
 
-![](../.gitbook/assets/enigme03.png)
+![](.gitbook/assets/enigme03.png)
 
 _\(l’aventure continue…\)_ Le chef du village demande à icaRius de percer le mystère de l’exploitation du fermier Galia
 
@@ -49,7 +49,7 @@ _\(l’aventure continue…\)_ Le chef du village demande à icaRius de percer l
 
 **cadre narratif** Le fermier Galia aide icaRius à retrouver la recette de la culture de la Mandragore
 
-![](../.gitbook/assets/enigme04.png)
+![](.gitbook/assets/enigme04.png)
 
 _\(l’aventure continue…\)_ Le chef du village offre à icaRius un jus de Mandragore. Ce dernier lui permet de franchir le cimetière du village. 2ème boss du jeu \(l’homme enterré\) et d’obtenir la 2ème Rune. IcaRius rejoint le château de Statis. Il rencontre le chef de armées \(qui est un sbire du sorcier SaSSoS\)
 
@@ -59,7 +59,7 @@ _\(l’aventure continue…\)_ Le chef du village offre à icaRius un jus de Man
 
 **cadre narratif** Se faisant passer pour un soldat de l’armée de SaSSoS, icaRius fait croire au chef des armées qu’il va attraper le traitre Essespéus. Pour libérer ce dernier, il doit d’abord obtenir la confiance du cuistot Batreb
 
-![](../.gitbook/assets/enigme05.png)
+![](.gitbook/assets/enigme05.png)
 
 _\(l’aventure continue…\)_ Batreb donne la clef à icaRius, qui retrouve Essespéus dans une partie secrète du château \(la cave à Ambroisie\)
 
@@ -69,7 +69,7 @@ _\(l’aventure continue…\)_ Batreb donne la clef à icaRius, qui retrouve Ess
 
 **cadre narratif** Essespéus et icaRius vont créer une Fake News pour tromper les armées de SaSSoS. Pour cela, ils doivent identifier quel est le royaume le mieux armé et le plus éloigné, en faisant ensuite croire qu’il s’agit au contraire du territoire le plus faible et le plus proche, afin d’y diriger les troupes ennemies pour gagner du temps.
 
-![](../.gitbook/assets/enigme06.png)
+![](.gitbook/assets/enigme06.png)
 
 _\(l’aventure continue…\)_ Le chef des armées prend pour argent comptant la fake news. Il quitte le château pour attaquer ce territoire prétendument proche, et laisse icaRius accèder à la salle de commandement, où se trouve le sorcier SaSSoS. Au cours du combat entre icaRius et SaSSoS, la princesse Statia vient aider le héros… qui triomphe. Il obtenient la 3ème Rune. Mais ce n’était qu’un simulacre de SaSSoS, une projection du sorcier qui défie icaRius de venir le vaincre en personne.
 
@@ -79,7 +79,7 @@ _\(l’aventure continue…\)_ Le chef des armées prend pour argent comptant la
 
 **cadre narratif** Une fois sortie du château, icaRius rencontre le Mage Delagarde. Ce dernier lui propose un défi \(optionnel\) pour obtenir les bonnes directions lui permettant de gagner du temps dans le labyrinthe. A noter côté jeu : une épreuve optionnelle pour débloquer un mode « pacman ».
 
-![](../.gitbook/assets/enigme07.png)
+![](.gitbook/assets/enigme07.png)
 
 _\(l’aventure continue…\)_ IcaRius franchit le labyrinthe, puis se trouve devant un passage bloqué par une pierre qu’il lui faut soulever. Le mage Zilap vient l’aider
 
@@ -89,7 +89,7 @@ _\(l’aventure continue…\)_ IcaRius franchit le labyrinthe, puis se trouve de
 
 **cadre narratif** Pour soulever la pierre qui bloque le passage, icaRius doit apprendre de nouveau sortilège. Le mage Zilap lui explique comment ajouter des chapitres à son grimoire IgoR \(chaque package étant un nouveau chapitre\).
 
-![](../.gitbook/assets/enigme08.png)
+![](.gitbook/assets/enigme08.png)
 
 _\(l’aventure continue…\)_ Zilap offre à icaRius la plume du tidyverse. Cette dernière a le pouvoir de rendre léger les obstacles qui semblaient insurmontables : icaRius peut désormais soulever des pierres sur son passage
 
@@ -99,7 +99,7 @@ _\(l’aventure continue…\)_ Zilap offre à icaRius la plume du tidyverse. Cet
 
 **cadre narratif** IcaRius arrive dans le village de Sandia. Mam’Grouxi lui narre les innombrables naissances qu’elle a vu au fil des ans \(des siècles?\). Elle lui demande de retrouver, dans le registre des naissances, le nom d’une jeune fille dont le Mana \(la force vitale et magique\) est le plus élevé.
 
-![](../.gitbook/assets/enigme09.png)
+![](.gitbook/assets/enigme09.png)
 
 _\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fille \(qui se trouve être la princesse Statia\). Mam’Grouxi lui offre des bombes en cadeau. Ces dernières lui permettent de découvrir un passage secret dans la paroi d’une falaise. IcaRius explore des grottes, jusqu’à vaindre un nouveau boss et obtenir la 4ème Rune.
 
@@ -109,7 +109,7 @@ _\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fi
 
 **cadre narratif** Dans ses pérégrinations, icaRius se trouve pris au piège dans une "forêt magique". Késako ? il s'agit d'un endroit avec plusieurs sorties possibles ; quand le héros prend une sortie, il arrive dans un endroit… exactement identique ! Il doit en fait enchaîner plusieurs directions dans un ordre précis pour sortir de ce lieu enchanté. Comment trouver la sortie ? S'échapper de ce piège ? En apprenant à garder la mémoire de ce que l'on fait, de la direction que l'on vient de prendre… D'où le tutoriel "Save Me", pour trouver la bonne sortie. Et la combinaison de directions sera indiquée dans le graphique exporté.
 
-![](../.gitbook/assets/enigme10.png)
+![](.gitbook/assets/enigme10.png)
 
 ## Enigme 11 – Codez-le une fois
 
@@ -117,7 +117,7 @@ _\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fi
 
 **cadre narratif** Dans une maison-arbre, icaRius croise un étrange personnage : l'automate TeoC. Ce dernier lui demande s'il connaît la "Voie du Reproductible". Mauvaise réponse d'icaRius, qui n'a aucune idée du sujet… L'automate déraille, et par la même occasion, envoie icaRius au point de départ : la toute première scène du réveil dans la chambre !!! Les personnages d'origine \(le mage Zilap, le mage Regor\) sont tous remplacés par des répliques de TeoC. Et ce dernier demande de chercher la copie du grimoire IGoR, à partir de laquelle va se lancer le tutoriel 1\(1\) \(réplique du tutoriel 1\). Quand il aura réussi l'épreuve, icaRius sera heureusement renvoyé dans le présent. En récompense, il gagnera un objet qui revient sans cesse au point de départ \(métaphore du reproductible\) : le boomerang ! Ce dernier lui permet d'atteindre des cibles éloignées, et par la même occasion de débloquer un passage dans le jeu pour aller plus loin.
 
-![](../.gitbook/assets/enigme11.png)
+![](.gitbook/assets/enigme11.png)
 
 _\(l’aventure continue…\)_ IcaRius débloque l’entrée d’un nouveau dongeon. A l’issue du dongeon, il combat « l’oeil de SaSSoS » qu’il parvient à vaincre. Obtention de la Rune n°5.
 
@@ -130,7 +130,7 @@ _\(l’aventure continue…\)_ IcaRius débloque l’entrée d’un nouveau dong
 
 **cadre narratif** IcaRius arrive au bord du grand lac de Statia… aussi appelé le DataLake. Mais il ne sait pas nager, et ne peut le traverser pour rejoindre l’île qui se situe en plein milieu. Un drôle d’oiseau, FebeleR, féru de littérature statisienne et de grimoires, lui propose de lui apprendre un nouveau sortilège, le sortilège palme\(\)… mais encore faut-il en connaître le mode de fonctionnement. Et donc savoir documenter un sortilège.
 
-![](../.gitbook/assets/enigme12.png)
+![](.gitbook/assets/enigme12.png)
 
 _\(l’aventure continue…\)_ IcaRius arrive sur une île, avec le dernier dongeon : le palais de la glace. A l’issue du dongeon, il combat « le brouillard du code embrouillé » qu’il parvient à vaincre. Obtention de la Rune n°6
 

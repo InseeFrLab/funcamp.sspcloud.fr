@@ -23,5 +23,5 @@ Toutes les ressources sont structurées sous forme de dépôts dans le Gitlab pr
 * funcamp-r-windows-solarus : mise à disposition du runner Solarus et de la quête icaRius, pour l'environnement Windows. Téléchargeable et installable en mode portable sur une clé USB
 * funcamp-r-windows-grimoire-launcher : dispositif d'empaquettage de l'ensemble des ressources - vidéoludiques et pédagogiques - pour suivre le funcamp en mode portable,  en installant ces ressources sur une clé USB pour un poste windows. Un frontend est inclus pour permettre au stagiaire de lancer facilement chaque étape du funcamp.
 
-Vous souhaitez contribuer ? Proposer une amélioration ou correction sous forme d'issue ? Rendez-vous sur l'un des espaces concernés : ![image funcamp](../.gitbook/assets/repos.png)
+Vous souhaitez contribuer ? Proposer une amélioration ou correction sous forme d'issue ? Rendez-vous sur l'un des espaces concernés : ![image funcamp](.gitbook/assets/repos.png)
 

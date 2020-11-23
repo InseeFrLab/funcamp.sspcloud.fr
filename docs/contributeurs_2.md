@@ -19,13 +19,13 @@ Le package est structuré de la façon suivante :
 
 L'utilisation du package learnr permet de proposer des exercices interactifs, avec une console R intégrée, pour laquelle il est possible de faire apparaître une solution en aide au stagiaire
 
-![image funcamp](../.gitbook/assets/exercice1.png)
+![image funcamp](.gitbook/assets/exercice1.png)
 
 Des quizz sont également proposés : à la fin de chaque tutoriel, ils permettent de vérifier que le stagiaire a résolu l'énigme, et de lui confirmer la réponse à renseigner dans le jeu icaRius.
 
-![image funcamp](../.gitbook/assets/exercice2.png)
+![image funcamp](.gitbook/assets/exercice2.png)
 
 Enfin, le package parsons propose des exercices sous forme de "puzzle", mettant l'accent sur le bon ordonnancement des briques d'un traitement.
 
-![image funcamp](../.gitbook/assets/exercice3.png)
+![image funcamp](.gitbook/assets/exercice3.png)
 

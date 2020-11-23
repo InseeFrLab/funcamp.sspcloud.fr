@@ -20,7 +20,7 @@ Un groupe de joyeux lurons, assurément ! Mais aussi, à l'occasion, des statist
 
 Un aperçu d'une partie de l'équipe, à l'occasion d'une Webconf pendant la période de confinement :
 
-![image funcamp](../.gitbook/assets/funcamp-r-team.png)
+![image funcamp](.gitbook/assets/funcamp-r-team.png)
 
 ## Remerciements
 

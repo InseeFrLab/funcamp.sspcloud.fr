@@ -17,8 +17,8 @@
 
 ## Evenements pasé et a venir <a id="evenements"></a>
 
-* [Orléan](evenements/orlean.md)
-* [Nantes](evenements/nantes.md)
+* [Orléan 24/11/20](evenements/orlean_24_11_20.md)
+* [Nantes 15/12/20](evenements/nantes_15_12_20.md)
 
 ## À propos
 

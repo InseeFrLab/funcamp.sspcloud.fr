@@ -274,6 +274,8 @@ $breakpoint: 992px;
 
       > div button {
 
+        cursor: pointer;
+
         margin-top: 20px;
 
         background: none;
@@ -426,6 +428,8 @@ $breakpoint: 992px;
           margin-bottom: 36px;
 
           > div button.startGameButton {
+
+            cursor: pointer;
 
             background-color: #8090D8;
             border-radius: 15px;

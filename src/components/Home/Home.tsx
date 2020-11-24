@@ -69,7 +69,7 @@ export const Home: React.FC<{
                     </p>
 
                     <button
-                        onClick={useCallback(() => window.open("https://docs.funcamp.sspcloud.fr/formateurs"), [])}
+                        onClick={useCallback(() => window.open("https://docs.funcamp.sspcloud.fr/espace-formateur/principes-pedagogiques"), [])}
                     >Consulter la documentation</button>
 
                 </div>

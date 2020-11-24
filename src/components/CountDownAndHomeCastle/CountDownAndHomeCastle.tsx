@@ -1,4 +1,3 @@
-
 import React, { useCallback, useMemo } from "react";
 import styles from "./CountDownAndHomeCastle.scss";
 import { routes } from "../../router";
@@ -19,18 +18,24 @@ export const routeGroup = createGroup([
     routes.countdown
 ]);
 
-const upcomingEvents: { [eventName: string]: CountdownTargetDate; } = {
+const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTargetDate; eventPageUrl: string } } = {
     "Orléans": {
-        "endtimeYear": 2020,
-        "endtimeMonth": 11,
-        "endtimeDate": 24,
-        "endtimeHours": 9
+        "countdownTargetDate": {
+            "endtimeYear": 2020,
+            "endtimeMonth": 11,
+            "endtimeDate": 24,
+            "endtimeHours": 9
+        },
+        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/orlean_24_11_20"
     },
     "Nantes": {
-        "endtimeYear": 2020,
-        "endtimeMonth": 12,
-        "endtimeDate": 15,
-        "endtimeHours": 9
+        "countdownTargetDate": {
+            "endtimeYear": 2020,
+            "endtimeMonth": 12,
+            "endtimeDate": 15,
+            "endtimeHours": 9
+        },
+        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nantes_15_12_20"
     }
 };
 
@@ -99,7 +104,8 @@ export const CountDownAndHomeCastle: React.FC<{
                             <h1>Prochain Bootcamps</h1>
                             <div>
                                 {Object.keys(upcomingEvents).map(eventName => <Countdown
-                                    countdownTargetDate={upcomingEvents[eventName]}
+                                    countdownTargetDate={upcomingEvents[eventName].countdownTargetDate}
+                                    eventPageUrl={upcomingEvents[eventName].eventPageUrl}
                                     eventName={eventName}
                                     key={eventName}
                                 />)}
@@ -182,9 +188,13 @@ export const CountDownAndHomeCastle: React.FC<{
 
 };
 
-const Countdown: React.FC<{ countdownTargetDate: CountdownTargetDate; eventName: string; }> = params => {
+const Countdown: React.FC<{
+    countdownTargetDate: CountdownTargetDate;
+    eventName: string;
+    eventPageUrl: string;
+}> = params => {
 
-    const { countdownTargetDate, eventName } = params;
+    const { countdownTargetDate, eventName, eventPageUrl } = params;
 
     const evtTimeRemaining = useMemo(
         () => getEvtTimeRemaining(countdownTargetDate),
@@ -198,14 +208,22 @@ const Countdown: React.FC<{ countdownTargetDate: CountdownTargetDate; eventName:
 
     const isEndedFromMoreThan8Hours = total < 0 && Math.abs(total) > 1000 * 3600 * 8;
 
+    const openEventPage = useCallback(
+        () => window.open(eventPageUrl),
+        [eventPageUrl]
+    );
+
     if (isEndedFromMoreThan8Hours) {
         return null;
     }
+
 
     return (
         <div
             className={`${eventName} js-tilt`}
             key={eventName}
+            onClick={openEventPage}
+            style={{ "cursor": "pointer" }}
         >
             <h3>{eventName}</h3>
 

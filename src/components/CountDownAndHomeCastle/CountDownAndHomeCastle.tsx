@@ -24,7 +24,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeYear": 2020,
             "endtimeMonth": 11,
             "endtimeDate": 24,
-            "endtimeHours": 10
+            "endtimeHours": 11
         },
         "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/orlean_24_11_20"
     },

@@ -46,7 +46,22 @@ $breakpoint: 992px;
         margin-right: $marginSide;
 
         > h1 {
+
+            position: relative;
+            display: inline-block;
+
             margin-top: 0;
+
+            &::after {
+                display: block;
+                position: absolute;
+                content: '';
+                bottom: -30%;
+                width: 40%;
+                left: 30%;
+                border-bottom: 1px solid white;
+            }
+
         }
 
         > h1, > p {
@@ -56,6 +71,7 @@ $breakpoint: 992px;
         > p {
             width: 60%;
             margin: auto;
+            margin-top: 10px;
 
             @media (max-width: $breakpoint) {
                 width: 90%;
@@ -66,6 +82,13 @@ $breakpoint: 992px;
         -webkit-box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
         -moz-box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
         box-shadow: 9px 12px 5px -5px rgba(0,0,0,0.27);
+
+        @media (max-width: $breakpoint) {
+            $marginSide: 2px;
+
+            margin-left: $marginSide;
+            margin-right: $marginSide;
+        }
 
     }
 

@@ -4,6 +4,7 @@ import { Route } from "type-route";
 import { routes } from "../../router";
 import gameScreenshotImg from "./game_screenshot.png";
 
+
 export const Home: React.FC<{
     route: Route<typeof routes.home>
 }> = ()=> {

@@ -11,6 +11,8 @@ import icariusImg from "./icarius.png";
 import "animate.css/animate.css";
 import { getEvtTimeRemaining, CountdownTargetDate } from "./timeRemaining";
 import { useStatefulEvt } from "evt/hooks";
+import useSound from 'use-sound';
+import teleportFx from "./teleportFx.mp3";
 
 export const routeGroup = createGroup([
     routes.home,
@@ -40,11 +42,15 @@ export const CountDownAndHomeCastle: React.FC<{
 
     const { route } = params;
 
+    const [playTeleportFx] = useSound(teleportFx);
+
     const {
         execute: buttonCallback,
         loading: isTransitioningToHome
     } = useAsyncAbortable(
         async abortSignal => {
+
+            playTeleportFx();
 
             await new Promise(
                 resolve => setTimeout(

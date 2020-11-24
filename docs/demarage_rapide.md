@@ -4,7 +4,7 @@
 
 > Un jeu et des tutoriels pour apprendre R
 
-L'aventure vidéoludique que nous vous proposons de suivre via le Funcamp R se compose de deux éléments : un jeu vidéo \(oui, comme quoi, on peut jouer pendant qu'on travaille\) et des tutoriels R \(oui, comme quoi, on peut se former pendant qu'on joue\).
+L'aventure vidéoludique que nous vous proposons de suivre via le Funcamp R se compose de deux éléments : un jeu vidéo \(oui, comme quoi, on peut jouer pendant qu'on travaille\) et des tutoriels [**R**](https://en.wikipedia.org/wiki/R_%28programming_language%29) \(oui, comme quoi, on peut se former pendant qu'on joue\).
 
 Pour le Funcamp, il vous faudra utiliser les deux environnements. Ces derniers peuvent soit être installés directement sur votre poste de travail, soit être utilisés en ligne.
 
@@ -24,10 +24,6 @@ Nous allons vous guider pour accéder à ces éléments.
 {% embed url="https://youtu.be/AeqowV196ag" caption="Tuto version portable" %}
 
 {% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
-
-
-
-
 
 ## Jouer sans installer, depuis votre navigateur. 🔇
 

@@ -1,7 +1,3 @@
----
-description: Comment jouer (et se former!) ?
----
-
 # Démarrage rapide
 
 ## Comment jouer \(et se former\)? 

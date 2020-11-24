@@ -18,13 +18,13 @@ Parcourir ce grimoire vous permettra d’**apprendre, pas à pas, le langage des
 {% embed url="https://www.youtube.com/watch?v=Quz2CfF0gmo&feature=emb\_title" %}
 
 Le Funcamp R s'adresse avant tout à celles et ceux qui, **petits et grands débutants en R**, souhaitent inscrire leur apprentissage dans une démarche amusante, où des phases de jeu et des phases de pratiques en R alternent. Il a été conçu pour **les agents du système statistique public**, qui retrouveront dans l'aventure d'icaRius quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. La composante dédiée aux techniques statistiques est délibèrement très restreinte : il s'agit surtout d'apprendre à maîtriser le cadre général de l'environnement R, d'autres formations plus avancées répondant aux besoins des statisticiens avertis.   
- **Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Jouer \(et apprendre\)](demarage_rapide.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.  
+ **Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Jouer \(et apprendre\)](a-propos/philosophie/demarage_more.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.  
 
 ![](.gitbook/assets/icarius-visuel-a%20%281%29.png)
 
  Cet espace propose également, pour les esprits curieux, des informations complémentaires :
 
-* la [philosophie du projet](a-propos/philosophie.md), son histoire, ses acteurs... et son possible devenir ! 
+* la [philosophie du projet](a-propos/philosophie/), son histoire, ses acteurs... et son possible devenir ! 
 * pour les formateurs, un espace dédié aux [principes pédagogiques](espace-formateur/trame-de-formation.md) et à la présentation de la [trame suivie](espace-formateur/trame-de-formation.md). 
 * pour les développeurs, un ensemble de ressources pour [contribuer au développement](espace-contributeur/comment-contribuer.md) du [grimoire de tutoriels R](espace-contributeur/contributeurs_2.md) et du [jeu icaRius](espace-contributeur/contributeurs_3.md).
 * l'identité des [auteurs de cette aventure](a-propos/credits.md) : la présentation de l'équipe de conception du Funcamp R, et des acteurs qui nous ont aidés.

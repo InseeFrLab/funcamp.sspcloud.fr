@@ -1,8 +1,7 @@
 # Table of contents
 
 * [FuncampR](README.md)
-* [Démarage rapide](demarage_rapide.md)
-* [Untitled](untitled.md)
+* [Démarrage rapide](demarage_rapide.md)
 * [Solution complète](solution.md)
 
 ## Espace contributeur
@@ -23,6 +22,7 @@
 
 ## À propos
 
-* [La philosophie du projet](a-propos/philosophie.md)
+* [La philosophie du projet](a-propos/philosophie/README.md)
+  * [Démarage](a-propos/philosophie/demarage_more.md)
 * [Qui sommes-nous ?](a-propos/credits.md)
 

@@ -7,7 +7,7 @@
 
 * [Comment contribuer](espace-contributeur/comment-contribuer.md)
 * [Le grimoire](espace-contributeur/contributeurs_2.md)
-* [Le moteur du jeux](espace-contributeur/contributeurs_3.md)
+* [Le moteur du jeu](espace-contributeur/contributeurs_3.md)
 
 ## Espace formateur
 

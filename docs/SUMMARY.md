@@ -1,7 +1,7 @@
 # Table of contents
 
 * [FuncampR](README.md)
-* [Démarrage rapide](demarage_rapide.md)
+* [Démarrage rapide](demarrage_rapide.md)
 
 ## Espace contributeur
 
@@ -17,11 +17,10 @@
 
 ## Evenements passés et à venir <a id="evenements"></a>
 
-* [Nantes 15/12/20](evenements/nantes_15_12_20.md)
+* [e-Funcamp 15/12/20](evenements/e-funcamp_15_12_20.md)
 
 ## À propos
 
 * [La philosophie du projet](a-propos/philosophie/README.md)
-  * [Démarage](a-propos/philosophie/demarage_more.md)
 * [Qui sommes-nous ?](a-propos/credits.md)
 

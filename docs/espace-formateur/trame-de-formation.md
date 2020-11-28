@@ -1,2 +1,0 @@
-# Trame de formation
-

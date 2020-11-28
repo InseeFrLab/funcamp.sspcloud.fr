@@ -12,7 +12,7 @@
 ## Espace formateur
 
 * [Principes pédagogiques](espace-formateur/principes-pedagogiques.md)
-* [Trame de formation](espace-formateur/trame-pedagogique.md)
+* [Trame de formation](espace-formateur/trame-de-formation.md)
 * [Solution complète du jeu](espace-formateur/solution.md)
 
 ## Evenements passés et à venir <a id="evenements"></a>
@@ -21,6 +21,6 @@
 
 ## À propos
 
-* [La philosophie du projet](a-propos/philosophie/README.md)
+* [La philosophie du projet](a-propos/philosophie.md)
 * [Qui sommes-nous ?](a-propos/credits.md)
 

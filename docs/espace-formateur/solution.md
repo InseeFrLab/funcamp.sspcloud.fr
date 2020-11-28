@@ -2,7 +2,7 @@
 description: Besoin d'aide?
 ---
 
-# Solution complète
+# Solution complète du jeu
 
 Vous avez débuté votre aventure vidéoludique, mais vous êtes bloqué\(e\) en cours de jeu ? Ou vous ne trouvez pas la solution d'un chapitre du grimoire ? Sur cette page, vous trouverez la solution de l'aventure icaRius, découpée en vidéos qui vous présentent les différents niveaux du jeu vidéo. Les réponses au grimoire sont également présentées au moment où ces dernières doivent être saisies dans le jeu.
 

@@ -2,7 +2,6 @@
 
 * [FuncampR](README.md)
 * [Démarrage rapide](demarage_rapide.md)
-* [Solution complète](solution.md)
 
 ## Espace contributeur
 
@@ -14,10 +13,10 @@
 
 * [Principes pédagogiques](espace-formateur/principes-pedagogiques.md)
 * [Trame de formation](espace-formateur/trame-de-formation.md)
+* [Solution complète](espace-formateur/solution.md)
 
-## Evenements pasé et a venir <a id="evenements"></a>
+## Evenements passés et à venir <a id="evenements"></a>
 
-* [Orléan 24/11/20](evenements/orlean_24_11_20.md)
 * [Nantes 15/12/20](evenements/nantes_15_12_20.md)
 
 ## À propos

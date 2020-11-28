@@ -28,14 +28,14 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
         },
         "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/orlean_24_11_20"
     },
-    "Nantes": {
+    "e-Funcamp !": {
         "countdownTargetDate": {
             "endtimeYear": 2020,
             "endtimeMonth": 12,
             "endtimeDate": 15,
             "endtimeHours": 9
         },
-        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nantes_15_12_20"
+        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/e-funcamp_15_12_20"
     }
 };
 

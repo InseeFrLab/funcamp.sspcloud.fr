@@ -1,2 +1,0 @@
-# Principes pédagogiques
-

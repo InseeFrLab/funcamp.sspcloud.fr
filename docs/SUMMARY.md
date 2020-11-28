@@ -12,8 +12,8 @@
 ## Espace formateur
 
 * [Principes pédagogiques](espace-formateur/principes-pedagogiques.md)
-* [Trame de formation](espace-formateur/trame-de-formation.md)
-* [Solution complète](espace-formateur/solution.md)
+* [Trame de formation](espace-formateur/trame-pedagogique.md)
+* [Solution complète du jeu](espace-formateur/solution.md)
 
 ## Evenements passés et à venir <a id="evenements"></a>
 

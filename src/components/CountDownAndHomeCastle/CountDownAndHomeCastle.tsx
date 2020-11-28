@@ -79,7 +79,7 @@ export const CountDownAndHomeCastle: React.FC<{
     );
 
     const openDoc = useCallback(
-        () => window.open("https://docs.funcamp.sspcloud.fr/demarage_rapide"),
+        () => window.open("https://docs.funcamp.sspcloud.fr/demarrage_rapide"),
         []
     );
 

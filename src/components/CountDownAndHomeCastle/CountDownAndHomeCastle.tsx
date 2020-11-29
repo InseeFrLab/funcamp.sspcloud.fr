@@ -8,7 +8,7 @@ import tchapImg from "./tchap.png";
 import inseeFrLabImg from "./inseeFrLab.png";
 import icariusImg from "./icarius.png";
 import "animate.css/animate.css";
-import { getEvtTimeRemaining, CountdownTargetDate } from "./timeRemaining";
+import { getEvtTimeRemaining, CountdownTargetDate, isEndedFromMoreThan8Hours } from "./timeRemaining";
 import { useStatefulEvt } from "evt/hooks";
 import useSound from 'use-sound';
 import teleportFx from "./teleportFx.mp3";
@@ -88,6 +88,16 @@ export const CountDownAndHomeCastle: React.FC<{
         []
     );
 
+    const conditionalPlural = useMemo(
+        () =>
+            Object.keys(upcomingEvents)
+                .map(eventName => upcomingEvents[eventName].countdownTargetDate)
+                .map(countdownTargetDate => getEvtTimeRemaining(countdownTargetDate))
+                .filter(evtTimeRemaining => !isEndedFromMoreThan8Hours(evtTimeRemaining.state))
+                .length == 1 ? "" : "s",
+        []
+    );
+
     return (
         <div
             className={`
@@ -101,14 +111,15 @@ export const CountDownAndHomeCastle: React.FC<{
                     <div className="countdown">
                         <div> {/* Countdown placeholder*/}
 
-                            <h1>Prochain(s) évènement(s)</h1>
+                            <h1>Prochain{conditionalPlural} évènement{conditionalPlural}</h1>
                             <div>
-                                {Object.keys(upcomingEvents).map(eventName => <Countdown
-                                    countdownTargetDate={upcomingEvents[eventName].countdownTargetDate}
-                                    eventPageUrl={upcomingEvents[eventName].eventPageUrl}
-                                    eventName={eventName}
-                                    key={eventName}
-                                />)}
+                                {Object.keys(upcomingEvents)
+                                    .map(eventName => <Countdown
+                                        countdownTargetDate={upcomingEvents[eventName].countdownTargetDate}
+                                        eventPageUrl={upcomingEvents[eventName].eventPageUrl}
+                                        eventName={eventName}
+                                        key={eventName}
+                                    />)}
                             </div>
 
 
@@ -188,6 +199,8 @@ export const CountDownAndHomeCastle: React.FC<{
 
 };
 
+
+
 const Countdown: React.FC<{
     countdownTargetDate: CountdownTargetDate;
     eventName: string;
@@ -196,26 +209,25 @@ const Countdown: React.FC<{
 
     const { countdownTargetDate, eventName, eventPageUrl } = params;
 
+
     const evtTimeRemaining = useMemo(
         () => getEvtTimeRemaining(countdownTargetDate),
         [countdownTargetDate]
     );
 
+    if (isEndedFromMoreThan8Hours(evtTimeRemaining.state)) {
+        return null;
+    }
+
     useStatefulEvt([evtTimeRemaining]);
 
     const { days, hours, minutes, seconds, total } = evtTimeRemaining.state;
-
-
-    const isEndedFromMoreThan8Hours = total < 0 && Math.abs(total) > 1000 * 3600 * 8;
 
     const openEventPage = useCallback(
         () => window.open(eventPageUrl),
         [eventPageUrl]
     );
 
-    if (isEndedFromMoreThan8Hours) {
-        return null;
-    }
 
 
     return (
@@ -234,7 +246,7 @@ const Countdown: React.FC<{
                             days !== 0 &&
                             <div>
                                 <span>{days}</span>
-                                <span> Jours</span>
+                                <span> Jour{days === 1 ? "" : "s"}</span>
                             </div>
                         }
                         {

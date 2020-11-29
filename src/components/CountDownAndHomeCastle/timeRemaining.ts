@@ -11,7 +11,7 @@ export type CountdownTargetDate = {
     endtimeHours: number;
 };
 
-export type timeRemaining = {
+export type TimeRemaining = {
     total: number;
     days: number;
     hours: number;
@@ -21,9 +21,9 @@ export type timeRemaining = {
 
 export const getEvtTimeRemaining =
     memoizee(
-        (countdownTargetDate: CountdownTargetDate): StatefulReadonlyEvt<timeRemaining> => {
+        (countdownTargetDate: CountdownTargetDate): StatefulReadonlyEvt<TimeRemaining> => {
 
-            const evt = Evt.create<timeRemaining>({
+            const evt = Evt.create<TimeRemaining>({
                 "days": NaN,
                 "hours": NaN,
                 "minutes": NaN,
@@ -126,3 +126,6 @@ export const getEvtTimeRemaining =
 
         }
     );
+
+export const isEndedFromMoreThan8Hours = (timeRemaining: { total: number; }) => 
+    timeRemaining.total < 0 && Math.abs(timeRemaining.total) > 1000 * 3600 * 8;

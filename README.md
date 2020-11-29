@@ -49,7 +49,11 @@ git push origin my_changes
 The come back here (https://github.com/InseeFrLab/funcamp.sspcloud.fr), GitHub will automatically
 suggest you open a PR.
 
-To make the changes visible for everyone you need to be an administrator of the repo.  
+The changes on the default branch (main) are published automatically on [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) using github action.
+See workflow here: [deploy.yaml](https://github.com/InseeFrLab/funcamp.sspcloud.fr/blob/main/.github/workflows/deploy.yaml)
+
+## More info, for those who want to understand what is going on behind the scenes.
+
 [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) is hosted here on github using [github pages](https://pages.github.com).  
 If you go over to the `Settings` page of this repo and scroll down, you will find:  
 ![image](https://user-images.githubusercontent.com/6702424/99955231-3f8bed80-2d84-11eb-84a3-871badf5f2a6.png)

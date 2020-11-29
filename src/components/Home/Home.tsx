@@ -18,7 +18,7 @@ export const Home: React.FC<{
                     <h1>Funcamp R</h1>
                     <h3>Un jeu et des tutoriels pour apprendre R</h3>
                     <p> 
-                        <span style={{ "fontSize": "75%" }}>Le Funcamp R s'adresse avant tout à celles et ceux qui, petits et grands 
+                        <span>Le Funcamp R s'adresse avant tout à celles et ceux qui, petits et grands 
                         débutants en R, souhaitent inscrire leur apprentissage dans une démarche amusante, 
                         où des phases de jeu et des phases de pratiques en R alternent. Il a été conçu pour 
                         les agents du système statistique public, qui retrouveront dans l'aventure d'icaRius 
@@ -60,7 +60,7 @@ export const Home: React.FC<{
                     <h1>La documentation</h1>
                     <h3>Un espace pour les formateurs et un autre pour les développeurs</h3>
                     <p> 
-                        <span style={{ "fontSize": "75%" }}>Pour les esprits curieux, vous pouvez consulter la documentation 
+                        <span>Pour les esprits curieux, vous pouvez consulter la documentation 
                         qui regroupe des informations complémentaires sur le projet (la philosophie 
                         du projet, son histoire, ses acteurs... et son possible devenir), 
                         un espace dédié aux ressouces pour les formateurs (principes pédagogiques et 

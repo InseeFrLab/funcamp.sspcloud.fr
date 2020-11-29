@@ -58,7 +58,7 @@ export const Home: React.FC<{
 
                 <div>
                     <h1>La documentation</h1>
-                    <h3>Un espace pour les formateurs et les développeurs</h3>
+                    <h3>Un espace pour les formateurs et un autre pour les développeurs</h3>
                     <p> 
                         Pour les esprits curieux, vous pouvez consulter la documentation 
                         qui regroupe des informations complémentaires sur le projet (la philosophie 

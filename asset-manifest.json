@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.c2218721.chunk.css",
-    "main.js": "/static/js/main.6a921f10.chunk.js",
-    "main.js.map": "/static/js/main.6a921f10.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8ddbec1a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8ddbec1a.js.map",
+    "main.js": "/static/js/main.08f2d1d0.chunk.js",
+    "main.js.map": "/static/js/main.08f2d1d0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fbb16c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fbb16c6.js.map",
     "static/css/2.2ce0d9b2.chunk.css": "/static/css/2.2ce0d9b2.chunk.css",
-    "static/js/2.c497c8d8.chunk.js": "/static/js/2.c497c8d8.chunk.js",
-    "static/js/2.c497c8d8.chunk.js.map": "/static/js/2.c497c8d8.chunk.js.map",
-    "static/js/3.01444a87.chunk.js": "/static/js/3.01444a87.chunk.js",
-    "static/js/3.01444a87.chunk.js.map": "/static/js/3.01444a87.chunk.js.map",
+    "static/js/2.145d325d.chunk.js": "/static/js/2.145d325d.chunk.js",
+    "static/js/2.145d325d.chunk.js.map": "/static/js/2.145d325d.chunk.js.map",
+    "static/js/3.39bf8ef6.chunk.js": "/static/js/3.39bf8ef6.chunk.js",
+    "static/js/3.39bf8ef6.chunk.js.map": "/static/js/3.39bf8ef6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0746db134eb6fbc0909f01c88e0e4a0e.js": "/precache-manifest.0746db134eb6fbc0909f01c88e0e4a0e.js",
+    "precache-manifest.cd160f0f35987e92922311775f2762c9.js": "/precache-manifest.cd160f0f35987e92922311775f2762c9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.2ce0d9b2.chunk.css.map": "/static/css/2.2ce0d9b2.chunk.css.map",
     "static/css/main.c2218721.chunk.css.map": "/static/css/main.c2218721.chunk.css.map",
-    "static/js/2.c497c8d8.chunk.js.LICENSE.txt": "/static/js/2.c497c8d8.chunk.js.LICENSE.txt",
-    "static/js/3.01444a87.chunk.js.LICENSE.txt": "/static/js/3.01444a87.chunk.js.LICENSE.txt",
+    "static/js/2.145d325d.chunk.js.LICENSE.txt": "/static/js/2.145d325d.chunk.js.LICENSE.txt",
+    "static/js/3.39bf8ef6.chunk.js.LICENSE.txt": "/static/js/3.39bf8ef6.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/RobotoCondensed-Regular.6add4e22.woff2",
     "static/media/CountDownAndHomeCastle.scss": "/static/media/slideDown.f40c81ce.svg",
     "static/media/game_screenshot.png": "/static/media/game_screenshot.a1ce00f5.png",
     "static/media/teleportFx.mp3": "/static/media/teleportFx.24905db7.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ddbec1a.js",
+    "static/js/runtime-main.1fbb16c6.js",
     "static/css/2.2ce0d9b2.chunk.css",
-    "static/js/2.c497c8d8.chunk.js",
+    "static/js/2.145d325d.chunk.js",
     "static/css/main.c2218721.chunk.css",
-    "static/js/main.6a921f10.chunk.js"
+    "static/js/main.08f2d1d0.chunk.js"
   ]
 }

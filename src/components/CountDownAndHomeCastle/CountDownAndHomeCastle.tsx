@@ -94,7 +94,7 @@ export const CountDownAndHomeCastle: React.FC<{
                 .map(eventName => upcomingEvents[eventName].countdownTargetDate)
                 .map(countdownTargetDate => getEvtTimeRemaining(countdownTargetDate))
                 .filter(evtTimeRemaining => !isEndedFromMoreThan8Hours(evtTimeRemaining.state))
-                .length == 1 ? "" : "s",
+                .length === 1 ? "" : "s",
         []
     );
 

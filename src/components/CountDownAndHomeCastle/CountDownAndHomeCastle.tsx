@@ -215,9 +215,6 @@ const Countdown: React.FC<{
         [countdownTargetDate]
     );
 
-    if (isEndedFromMoreThan8Hours(evtTimeRemaining.state)) {
-        return null;
-    }
 
     useStatefulEvt([evtTimeRemaining]);
 
@@ -228,7 +225,9 @@ const Countdown: React.FC<{
         [eventPageUrl]
     );
 
-
+    if (isEndedFromMoreThan8Hours(evtTimeRemaining.state)) {
+        return null;
+    }
 
     return (
         <div

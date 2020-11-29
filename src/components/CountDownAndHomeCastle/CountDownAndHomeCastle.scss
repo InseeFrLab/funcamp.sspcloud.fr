@@ -237,12 +237,14 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
       transition: transform $transitionDuration;
     }
 
+    display: flex;
+    flex-wrap: wrap;
+  
+    align-items: center;
 
     > div {
 
-      margin-top: 40%;
-
-      width: 70%;
+      width: 100%;
 
       padding-left: 40px;
 
@@ -267,6 +269,10 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
         @media (orientation: portrait) {
           font-size: 0.8em;
+        }
+
+        @media (orientation: portrait), (max-width: 1200px) {
+          font-size: 0.9em;
         }
 
       }

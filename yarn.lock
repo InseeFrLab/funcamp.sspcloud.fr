@@ -5158,6 +5158,13 @@ gh-pages@^3.1.0:
     fs-extra "^8.1.0"
     globby "^6.1.0"
 
+github-pages-plugin-for-type-route@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/github-pages-plugin-for-type-route/-/github-pages-plugin-for-type-route-0.0.6.tgz#3823c4de45f994f17d53a9951867650116b9b3e9"
+  integrity sha512-Ii7clDG7TJ4sC4R2wtytiFfHPDEi7GUNJ8U4WrEoH94f9mBwSXY4f7ef50feAfsV8yhNQEr2q8e0ebyIOt2lLg==
+  dependencies:
+    scripting-tools "^0.19.13"
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
@@ -9856,6 +9863,11 @@ schema-utils@^2.5.0, schema-utils@^2.6.0, schema-utils@^2.6.1, schema-utils@^2.6
     "@types/json-schema" "^7.0.5"
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
+
+scripting-tools@^0.19.13:
+  version "0.19.13"
+  resolved "https://registry.yarnpkg.com/scripting-tools/-/scripting-tools-0.19.13.tgz#836df7d9c2ec99aea91984d1d5b2bd110670afec"
+  integrity sha512-d09H8vzSVa8p4XUTJqHZDbjKDyl5TG3SyPfNPUUkfyOwjwykStmfK8AXyWq7VRWjcgzTpkTiJ9uMk1NytMQY7w==
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"

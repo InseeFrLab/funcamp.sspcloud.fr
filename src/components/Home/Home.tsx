@@ -18,12 +18,12 @@ export const Home: React.FC<{
                     <h1>Funcamp R</h1>
                     <h3>Un jeu et des tutoriels pour apprendre R</h3>
                     <p> 
-                        Le Funcamp R s'adresse avant tout à celles et ceux qui, petits et grands 
+                        <span style="font-size: 75%">Le Funcamp R s'adresse avant tout à celles et ceux qui, petits et grands 
                         débutants en R, souhaitent inscrire leur apprentissage dans une démarche amusante, 
                         où des phases de jeu et des phases de pratiques en R alternent. Il a été conçu pour 
                         les agents du système statistique public, qui retrouveront dans l'aventure d'icaRius 
                         quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer 
-                        à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. 
+                        à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel.</span>
                     </p>
 
                     <button
@@ -60,12 +60,12 @@ export const Home: React.FC<{
                     <h1>La documentation</h1>
                     <h3>Un espace pour les formateurs et un autre pour les développeurs</h3>
                     <p> 
-                        Pour les esprits curieux, vous pouvez consulter la documentation 
+                        <span style="font-size: 75%">Pour les esprits curieux, vous pouvez consulter la documentation 
                         qui regroupe des informations complémentaires sur le projet (la philosophie 
                         du projet, son histoire, ses acteurs... et son possible devenir), 
                         un espace dédié aux ressouces pour les formateurs (principes pédagogiques et 
                         présentation de la trame suivie) et pour les développeurs, un ensemble de ressources 
-                        pour contribuer au développement du grimoire de tutoriels R et du jeu icaRius.
+                        pour contribuer au développement du grimoire de tutoriels R et du jeu icaRius.</span>
                     </p>
 
                     <button

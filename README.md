@@ -64,6 +64,11 @@ There is a script setup that takes the `build` folder and publish it over to `gh
 yarn run deploy
 ```
 
+NOTE: With use [git LFS](https://git-lfs.github.com) to avoid tracking the assets (images and vieos)
+
+![image](https://user-images.githubusercontent.com/6702424/100550183-78423000-3278-11eb-9e7b-72c252d83112.png)
+
+
 # Contributing to [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr) 
 
 The documentation website is not hosted via github page but with [gitbook.com](https://www.gitbook.com) 

@@ -101,7 +101,7 @@ export const CountDownAndHomeCastle: React.FC<{
                     <div className="countdown">
                         <div> {/* Countdown placeholder*/}
 
-                            <h1>Prochain Bootcamps</h1>
+                            <h1>Prochain(s) évènement(s)</h1>
                             <div>
                                 {Object.keys(upcomingEvents).map(eventName => <Countdown
                                     countdownTargetDate={upcomingEvents[eventName].countdownTargetDate}
@@ -159,8 +159,8 @@ export const CountDownAndHomeCastle: React.FC<{
 
                     <div>
 
-                        <h1>Le Funcamp R, de la nostalgie, du fun et du R!</h1>
-                        <h2>...saurez-vous percer les mystères du royaume de Statis?</h2>
+                        <h1>Le Funcamp R...</h1>
+                        <h2>...saurez-vous percer les mystères du royaume de Statis ?</h2>
                         <div>
                             <button onClick={buttonCallback}>Découvrir</button>
                         </div>
@@ -241,7 +241,7 @@ const Countdown: React.FC<{
                             hours !== 0 &&
                             <div>
                                 <span>{hours}</span>
-                                <span> heure</span>
+                                <span> h</span>
                             </div>
                         }
                         {

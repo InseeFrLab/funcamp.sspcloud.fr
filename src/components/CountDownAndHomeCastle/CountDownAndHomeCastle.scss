@@ -258,6 +258,14 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
         @media (orientation: portrait) {
           font-size: 1em;
         }
+
+        @media (min-width: 1400px) {
+          font-size: 4em;
+        }
+
+        @media (min-width: 1921px) {
+          font-size: 6em;
+        }
       
       }
 
@@ -273,6 +281,10 @@ $oppositeToAngleSideLength: tan(-$angle) * 100vh;
 
         @media (orientation: portrait), (max-width: 1200px) {
           font-size: 0.9em;
+        }
+
+        @media (min-width: 1400px) {
+          font-size: 1.2em;
         }
 
       }

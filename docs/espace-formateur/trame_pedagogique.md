@@ -1,4 +1,4 @@
-# Principes pédagogiques
+# Trame de formation
 
 **Attention spoiler** : la trame pédagogique est présentée de concert avec l'habillage narratif :-\)
 
@@ -9,7 +9,7 @@
 **objectifs pédagogiques**
 
 * Présenter R \(open source, multi-plateforme\) et ses possibilités \(graphiques, calculatoires, web, SIG...\)
-* Présenter la programmation avec R comme un dialogue avec la console ; décrire la boîte de dialogue 
+* Présenter la programmation avec R comme un dialogue avec la console ; décrire la boîte de dialogue
 
   -Faire des opérations arithmétiques et manipuler un objet
 

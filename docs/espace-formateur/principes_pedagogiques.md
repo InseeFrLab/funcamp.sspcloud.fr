@@ -1,4 +1,4 @@
-# Trame de formation
+# Principes pédagogiques
 
 ## Une trame conçue pour un public débutant
 

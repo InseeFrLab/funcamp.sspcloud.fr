@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <br>
-    <img src="https://github.com/InseeFrLab/funcamp.sspcloud.fr/workflows/publish/badge.svg?branch=main">
+    <img src="https://github.com/InseeFrLab/funcamp.sspcloud.fr/workflows/deploy/badge.svg?branch=main">
 </p>
 
 

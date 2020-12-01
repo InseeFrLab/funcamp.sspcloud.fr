@@ -1,6 +1,14 @@
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/6702424/99959108-baf09d80-2d8a-11eb-9efc-934ecd78ac2c.png">  
+</p>
+<p align="center">
+    <br>
+    <img src="https://github.com/InseeFrLab/funcamp.sspcloud.fr/workflows/publish/badge.svg?branch=main">
+</p>
+
+
 # Regarding the Funcamp project in general. 
 
-![Funcamp-Frise](https://user-images.githubusercontent.com/6702424/99959108-baf09d80-2d8a-11eb-9efc-934ecd78ac2c.png)
 
 This repo is the source code of the [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) website.  
 Inside the `docs/` are the sources for the documentation website [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr).  

@@ -7,7 +7,6 @@
 
 * [Principes pédagogiques](espace-formateur/principes_pedagogiques.md)
 * [Trame de formation](espace-formateur/trame_pedagogique.md)
-* [Solution complète du jeu](espace-formateur/solution.md)
 
 ## Espace contributeur
 

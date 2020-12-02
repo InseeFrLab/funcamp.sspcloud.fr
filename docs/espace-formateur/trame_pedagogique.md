@@ -2,8 +2,6 @@
 
 **Attention spoiler** : la trame pédagogique est présentée de concert avec l'habillage narratif :-\)
 
-**Pour la solution des énigmes du grimoire** : pour les tricheurs ou les joueurs pressés, ces dernières sont consultables directement sur les premières lignes du fichier [strings.dat](https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-icarius/-/blob/master/data/languages/fr/text/strings.dat). Par exemple, pour le tutoriel XX, il s'agit de la valeur "la\_solution" indiquée dans le paramètre `value =` qui figure dans la ligne `text{ key = "igor_answers.chapterXX_answer1", value = "la_solution" }`
-
 ## Enigme 1 – la maison d’icaRius
 
 **objectifs pédagogiques**
@@ -27,7 +25,7 @@ _\(l’aventure continue…\)_ Exploration des plaines de Statis. Rencontre de S
 * Appréhender la notion de chemin vers une ressource et un répertoire
 * Afficher des données et en avoir une première exploration \(nombre de lignes, de colonnes, premiers enregistrements\)
 
-**cadre narratif** Dans le village de Kokoro, icaRius aide la fermière et le fermier à recomposer le livre des pontes pour trouver la meilleure poule pondeuse En récompose, le mage Tourep lui offre un bouclier
+**cadre narratif** Dans le village de Kokoro, icaRius aide la fermière et le fermier à recomposer le livre des pontes pour trouver la meilleure poule pondeuse En récompense, le mage Tourep lui offre un bouclier
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
@@ -91,7 +89,7 @@ _\(l’aventure continue…\)_ IcaRius franchit le labyrinthe, puis se trouve de
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-_\(l’aventure continue…\)_ Zilap offre à icaRius la plume du tidyverse. Cette dernière a le pouvoir de rendre léger les obstacles qui semblaient insurmontables : icaRius peut désormais soulever des pierres sur son passage
+_\(l’aventure continue…\)_ Zilap offre à icaRius la plume du tidyverse. Cette dernière a le pouvoir de rendre léger les obstacles qui semblaient insurmontables : icaRius peut désormais soulever des pierres sur son passage.
 
 ## Enigme 9 – le village de Sandia
 
@@ -101,7 +99,7 @@ _\(l’aventure continue…\)_ Zilap offre à icaRius la plume du tidyverse. Cet
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
-_\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fille \(qui se trouve être la princesse Statia\). Mam’Grouxi lui offre des bombes en cadeau. Ces dernières lui permettent de découvrir un passage secret dans la paroi d’une falaise. IcaRius explore des grottes, jusqu’à vaindre un nouveau boss et obtenir la 4ème Rune.
+_\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fille \(qui se trouve être la princesse Statia\). Mam’Grouxi lui offre des bombes en cadeau. Ces dernières lui permettent de découvrir un passage secret dans la paroi d’une falaise. IcaRius explore des grottes, jusqu’à vaincre un nouveau boss et obtenir la 4ème Rune.
 
 ## Enigme 10 – la porte de sortie, « Save Me »
 
@@ -119,7 +117,7 @@ _\(l’aventure continue…\)_ IcaRius trouve le nom de la mystérieuse jeune fi
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-_\(l’aventure continue…\)_ IcaRius débloque l’entrée d’un nouveau dongeon. A l’issue du dongeon, il combat « l’oeil de SaSSoS » qu’il parvient à vaincre. Obtention de la Rune n°5.
+_\(l’aventure continue…\)_ IcaRius débloque l’entrée d’un nouveau donjon. A l’issue du donjon, il combat « l’oeil de SaSSoS » qu’il parvient à vaincre. Obtention de la Rune n°5.
 
 ## Enigme 12 – De l’oxygène documentaire
 
@@ -132,17 +130,17 @@ _\(l’aventure continue…\)_ IcaRius débloque l’entrée d’un nouveau dong
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-_\(l’aventure continue…\)_ IcaRius arrive sur une île, avec le dernier dongeon : le palais de la glace. A l’issue du dongeon, il combat « le brouillard du code embrouillé » qu’il parvient à vaincre. Obtention de la Rune n°6
+_\(l’aventure continue…\)_ IcaRius arrive sur une île, avec le dernier donjon : le palais de la glace. A l’issue du donjon, il combat « le brouillard du code embrouillé » qu’il parvient à vaincre. Obtention de la Rune n°6
 
 ## Enigme 13 – Ce qui se conçoit bien s’écrit clairement
 
 **objectifs pédagogiques**
 
 * faire la transition depuis le monde d'apprentissage du Funcamp vers le monde "réel" d'apprentissage de R à la fin de la journée. 
-* donner un premier aperçu de l'IDE Rstudio, a
+* donner un premier aperçu de l'IDE Rstudio, 
 * découvrir Rmarkdown comme solution centrale pour marier un traitement statistique et le produit attendu \(un rapport, une note de synthèse, un graphique commenté…\). 
 
-**cadre narratif** A la toute fin de l'aventure, icaRius doit écrire lui même le dernier chapitre de l'histoire. C'est dans cette ultime page qu'il doit raconter comment il a vaincu SaSSoS. Vertu performative de la langue runique : le fait de l'écrire conduit à réaliser ce qu'elle mentionne, et le monde de statis est sauvé !
+**cadre narratif** A la toute fin de l'aventure, icaRius doit écrire lui même le dernier chapitre de l'histoire. C'est dans cette ultime page qu'il doit raconter comment il a vaincu SaSSoS. Vertu performative de la langue runique : le fait de l'écrire conduit à réaliser ce qu'elle mentionne, et le monde de Statis est sauvé !
 
 _\(l’aventure continue… et se termine !\)_ IcaRius écrit comment il parvient à vaincre les terribles proc de SaSSoS. Aussitôt cette page écrite, le joueur se dirige vers l'antre de SaSSOs, qu'il combat pour libérer Statia… **et mystère quand à la dernière scène du jeu, il vous faudra jouer pour la découvrir :-\)**
 

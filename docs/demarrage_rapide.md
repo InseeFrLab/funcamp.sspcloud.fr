@@ -11,33 +11,16 @@ Pour le Funcamp, il vous faudra utiliser les deux environnements. Ces derniers p
 
 Nous allons vous guider pour accéder à ces éléments.
 
-## Installer le jeu et les tutoriels sur votre poste
+## Installer le jeu icaRius sur votre poste...
 
-> ### ... ou sur une clef USB \( minimum 2 Go\)
+> ### Simple et rapide !
 
-* Téléchargez le grimoire et le jeu [en cliquant ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip)      \(Le fichier téléchargé s'appelle : funcampr.zip\)
-* ça va prendre un peu de temps : patience \(environ 500 mo à télécharger\)
-* Dézippez le contenu à l'endroit de votre choix : vous aurez alors un répertoire appelé funcampR. 
-* il faut un peu de place, désolé pour l'encombrement \(1,5 go environ\)
-* À la fin de l'installation, allez dans le répertoire funcampR,      puis double-cliquez sur l'icône **START\_grimoire**, qui lancera automatiquement une page d'accueil. 
-* La page d'accueil comporte le lien vers chaque chapitre du grimoire,      et aussi vers le jeu : l**aissez-vous guider** ! 
+Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger \(seulement 30 mo\, moins de 5 minutes). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "nomade" du jeu, qui n'installer rien sur votre système d'exploitation. Voici comment procéder :
 
-{% embed url="https://youtu.be/AeqowV196ag" caption="Tuto version portable" %}
-
-_Attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr fonctionnera, mais pas F:\Mon Repertoire\funcampr_
-
-{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
-
-## N'installer que le jeu sur votre poste...
-
-> ### ... c'est beaucoup plus rapide !
->
-> Vous pouvez aussi ne télécharger que le jeu, beaucoup plus léger \(seulement 30 mo\) et utiliser la version en ligne du grimoire pour les tutoriels. Si vous ne voulez installer que le jeu, voici comment procéder :
->
-> * téléchargez uniquement le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
-> * le fichier téléchargé s'appelle : icarius-windows.zip
-> * dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius.
-> * à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
+* téléchargez le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
+* le fichier téléchargé s'appelle : icarius-windows.zip
+* dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius.
+* à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
 
 ## Jouer depuis votre navigateur. 🔇
 
@@ -75,4 +58,22 @@ _Attention, il faut veiller à ce que le chemin d'installation de votre réperto
 ### Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
 
 {% embed url="https://youtu.be/-C3J3KbPXpg" caption="Tutoriel video" %}
+
+## Installer le jeu et les tutoriels (tout ensemble) sur votre poste
+
+> ### attention, il faut de la place : près de 2 Go !
+
+* Téléchargez le grimoire et le jeu [en cliquant ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip)      \(Le fichier téléchargé s'appelle : funcampr.zip\)
+* ça va prendre un peu de temps : patience \(environ 500 mo à télécharger\)
+* Dézippez le contenu à l'endroit de votre choix : vous aurez alors un répertoire appelé funcampR. 
+* il faut un peu de place, désolé pour l'encombrement \(1,5 go environ\)
+* À la fin de l'installation, allez dans le répertoire funcampR,      puis double-cliquez sur l'icône **START\_grimoire**, qui lancera automatiquement une page d'accueil. 
+* La page d'accueil comporte le lien vers chaque chapitre du grimoire,      et aussi vers le jeu : l**aissez-vous guider** ! 
+
+{% embed url="https://youtu.be/AeqowV196ag" caption="Tuto version portable" %}
+
+_Attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr fonctionnera, mais pas F:\Mon Repertoire\funcampr_
+
+{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
+
 

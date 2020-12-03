@@ -22,6 +22,8 @@ Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur
 * dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius.
 * à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
 
+{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
+
 ## Jouer depuis votre navigateur. 🔇
 
 > ### Explorez le funcamp en ligne sur le SSPCloud. C'est l'idéal pour les tutoriels, mais déconseillé pour le jeu \(pas de musique et quelques ralentissements\)
@@ -74,6 +76,5 @@ Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur
 
 _Attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr fonctionnera, mais pas F:\Mon Repertoire\funcampr_
 
-{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
 
 

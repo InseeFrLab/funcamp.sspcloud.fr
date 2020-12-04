@@ -15,18 +15,54 @@ Nous allons vous guider pour accéder à ces éléments.
 
 > ### Simple et rapide !
 
-Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger \(seulement 30 mo\, moins de 5 minutes). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "nomade" du jeu, qui n'installer rien sur votre système d'exploitation. Voici comment procéder :
+Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger (seulement 30 mo, moins de 5 minutes). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "nomade" du jeu, qui n'installer rien sur votre système d'exploitation. Voici comment procéder :
 
 * téléchargez le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
 * le fichier téléchargé s'appelle : icarius-windows.zip
 * dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius.
 * à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
 
-{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation complète" %}
+{% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation d'icaRius" %}
 
-## Jouer depuis votre navigateur. 🔇
+## Suivez les tutoriels sur votre navigateur Internet 
 
-> ### Explorez le funcamp en ligne sur le SSPCloud. C'est l'idéal pour les tutoriels, mais déconseillé pour le jeu \(pas de musique et quelques ralentissements\)
+> ### Explorez le funcamp en ligne sur le SSPCloud. C'est l'idéal pour les tutoriels ! 
+
+* Accédez via votre navigateur Internet, sur la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://onyxia.lab.sspcloud.fr)
+
+![](images/lancer-service-00.png)
+
+* Ouvrez le **menu** pour accéder **au catalogue de formation**
+
+![](images/lancer-service-01.png)
+
+* Sélectionnez le parcours **Funcamp R.**
+
+![](images/lancer-service-02.png)
+
+* Le dossier est composé de toutes les étapes du parcours : le jeu icaRius d'abord et un item pour chaque chapitre du grimoire (chaque tutoriel). Pour lancer un tutoriel depuis votre navigateur Internet, cliquez sur le chapitre correspondant avec l'icone en forme d'engrenage.
+
+![](images/lancer-service-03.png)
+
+* Dans le panneau qui s'ouvre, cliquez simplement sur "créer votre service"  
+
+![](images/lancer-service-04.png)
+
+* Patientez pendant les quelques secondes de chargement. Une fois cette étape achevée, ouvrez le grimoire en cliquant sur l'icone en forme de fléche. **Attention** : même si le grimoire semble disponible, il faut le plus souvent attendre 40 à 50 secondes pour qu'il soit effectivement accessible sur Interne. Ne soyez pas inquiet de voir, au début, un message d'erreur indiquant que le service n'est pas disponible (patience...).
+
+![](images/lancer-service-05.png)
+
+* Pour lancer les autres tutoriels à chaque étape du jeu, reproduisez la même démarche pour chaque chapitre du grimoire.
+
+> ### Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
+
+{% embed url="https://youtu.be/-C3J3KbPXpg" caption="Tutoriel video" %}
+
+## Une autre méthode : jouer à icaRius en ligne 🔇
+
+Cette méthode est une solution de secours par rapport au téléchargement du jeu sur votre poste. En effet, en ligne, vous pourrez avoir des ralentissements, et vous ne pourrez pas profiter de la musique du jeu ! Snif...
+
+Voici néanmoins le mode opératoire :
 
 * Accédez via votre navigateur Internet, sur la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://onyxia.lab.sspcloud.fr)
 * Ouvrez le **menu** pour accéder **au catalogue de formation** et sélectionnez **Funcamp R.**
@@ -53,15 +89,7 @@ Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur
 
 * Dans cet environnement virtuel, double-cliquez sur l'icône du jeu icaRius, et jouez !
 
-![](.gitbook/assets/image%20%2817%29.png)
-
-* Pour lancer les tutoriels à chaque étape du jeu, reproduisez la démarche pour chaque nouveau chapitre du grimoire.
-
-### Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
-
-{% embed url="https://youtu.be/-C3J3KbPXpg" caption="Tutoriel video" %}
-
-## Installer le jeu et les tutoriels (tout ensemble) sur votre poste
+## Encore une autre méthode : installer le jeu et les tutoriels (ensemble) sur votre poste
 
 > ### attention, il faut de la place : près de 2 Go !
 

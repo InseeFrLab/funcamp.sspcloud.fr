@@ -66,35 +66,39 @@ Voici néanmoins le mode opératoire :
 
 * Accédez via votre navigateur Internet, sur la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://onyxia.lab.sspcloud.fr)
 * Ouvrez le **menu** pour accéder **au catalogue de formation** et sélectionnez **Funcamp R.**
-* Le dossier est composé de toutes les étapes du parcours : le jeu icaRius d'abord et un item pour chaque chapitre du grimoire \(chaque tutoriel\)
-* Pour lancer le jeu icaRius depuis votre navigateur Internet, cliquez sur le jeu et créer votre service.
+* Le dossier est composé de toutes les étapes du parcours : le jeu icaRius d'abord et un item pour chaque chapitre du grimoire (chaque tutoriel)
+* Pour lancer le jeu icaRius depuis votre navigateur Internet, cliquez sur le jeu 
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](images/lancer-game-01.png)
 
-![](.gitbook/assets/image%20%2823%29.png)
+* dans le nouveau panneau, cliquez sur "créer votre service".
+
+![](images/lancer-game-02.png)
 
 * Pendant les quelques secondes de chargement, copiez votre mot de passe d’accès aux services à partir de l’icône en forme de clef.
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](images/lancer-game-03.png)
 
 * Il ne reste qu’à lancer le jeu dans votre navigateur internet, en cliquant sur l'icône avec une flèche et de coller votre mot de passe
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](images/lancer-game-04.png)
 
 * Dans cet environnement virtuel, double-cliquez sur l'icône du jeu icaRius, et jouez !
 
+![](images/lancer-game-05.png)
+
 ## Encore une autre méthode : installer le jeu et les tutoriels (ensemble) sur votre poste
 
-> ### attention, il faut de la place : près de 2 Go !
+> ### attention, il faut de la place : près de 2 Go ! Cette méthode vous permet d'avoir toutes les ressources, ludiques et pédagogiques, directement sur votre poste de travail ou sur une clef USB.
 
-* Téléchargez le grimoire et le jeu [en cliquant ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip)      \(Le fichier téléchargé s'appelle : funcampr.zip\)
-* ça va prendre un peu de temps : patience \(environ 500 mo à télécharger\)
+* Téléchargez le grimoire et le jeu [en cliquant ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip) (Le fichier téléchargé s'appelle : funcampr.zip)
+* ça va prendre un peu de temps : patience (environ 500 mo à télécharger)
 * Dézippez le contenu à l'endroit de votre choix : vous aurez alors un répertoire appelé funcampR. 
-* il faut un peu de place, désolé pour l'encombrement \(1,5 go environ\)
-* À la fin de l'installation, allez dans le répertoire funcampR,      puis double-cliquez sur l'icône **START\_grimoire**, qui lancera automatiquement une page d'accueil. 
-* La page d'accueil comporte le lien vers chaque chapitre du grimoire,      et aussi vers le jeu : l**aissez-vous guider** ! 
+* il faut un peu de place, désolé pour l'encombrement (1,5 go environ)
+* À la fin de l'installation, allez dans le répertoire funcampR, puis double-cliquez sur l'icône **START\_grimoire**, qui lancera automatiquement une page d'accueil. 
+* La page d'accueil comporte le lien vers chaque chapitre du grimoire, et aussi vers le jeu : **laissez-vous guider** ! 
 
-{% embed url="https://youtu.be/AeqowV196ag" caption="Tuto version portable" %}
+{% embed url="https://youtu.be/AeqowV196ag" caption="Tuto version complète sur le poste" %}
 
 _Attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr fonctionnera, mais pas F:\Mon Repertoire\funcampr_
 

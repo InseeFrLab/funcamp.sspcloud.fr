@@ -66,13 +66,7 @@ Voici néanmoins le mode opératoire :
 
 * Accédez via votre navigateur Internet, sur la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://onyxia.lab.sspcloud.fr)
 * Ouvrez le **menu** pour accéder **au catalogue de formation** et sélectionnez **Funcamp R.**
-
-![](.gitbook/assets/image%20%2821%29.png)
-
 * Le dossier est composé de toutes les étapes du parcours : le jeu icaRius d'abord et un item pour chaque chapitre du grimoire \(chaque tutoriel\)
-
-![](.gitbook/assets/image%20%2820%29.png)
-
 * Pour lancer le jeu icaRius depuis votre navigateur Internet, cliquez sur le jeu et créer votre service.
 
 ![](.gitbook/assets/image%20%2825%29.png)

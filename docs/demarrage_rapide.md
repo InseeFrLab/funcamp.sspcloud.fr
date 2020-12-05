@@ -15,7 +15,7 @@ Nous allons vous guider pour accéder à ces éléments.
 
 > ### Simple et rapide !
 
-Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger (seulement 30 mo, moins de 5 minutes). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "nomade" du jeu, qui n'installer rien sur votre système d'exploitation. Voici comment procéder :
+Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger (seulement 30 mo, moins de 5 minutes). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "portable" du jeu, qui n'installe rien sur votre système d'exploitation. Voici comment procéder :
 
 * téléchargez le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
 * le fichier téléchargé s'appelle : icarius-windows.zip
@@ -24,7 +24,7 @@ Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur
 
 {% embed url="https://youtu.be/44b7bTG601I" caption="Tuto installation d'icaRius" %}
 
-## Suivez les tutoriels sur votre navigateur Internet 
+## Suivez les tutoriels R sur votre navigateur Internet 
 
 > ### Explorez le funcamp en ligne sur le SSPCloud. C'est l'idéal pour les tutoriels ! 
 
@@ -48,15 +48,11 @@ Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur
 
 ![](images/lancer-service-04.png)
 
-* Patientez pendant les quelques secondes de chargement. Une fois cette étape achevée, ouvrez le grimoire en cliquant sur l'icone en forme de fléche. **Attention** : même si le grimoire semble disponible, il faut le plus souvent attendre 40 à 50 secondes pour qu'il soit effectivement accessible sur Interne. Ne soyez pas inquiet de voir, au début, un message d'erreur indiquant que le service n'est pas disponible (patience...).
+* Patientez pendant les quelques secondes de chargement. Une fois cette étape achevée, ouvrez le grimoire en cliquant sur l'icone en forme de fléche. **Attention** : même si le grimoire semble disponible, il faut le plus souvent attendre 40 à 50 secondes de plus pour qu'il soit effectivement accessible sur Internet. Ne soyez pas inquiet de voir, au début, un message d'erreur indiquant que le service n'est pas disponible (patience...).
 
 ![](images/lancer-service-05.png)
 
 * Pour lancer les autres tutoriels à chaque étape du jeu, reproduisez la même démarche pour chaque chapitre du grimoire.
-
-> ### Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
-
-{% embed url="https://youtu.be/-C3J3KbPXpg" caption="Tutoriel video" %}
 
 ## Une autre méthode : jouer à icaRius en ligne 🔇
 
@@ -87,9 +83,13 @@ Voici néanmoins le mode opératoire :
 
 ![](images/lancer-game-05.png)
 
+* Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
+
+{% embed url="https://youtu.be/-C3J3KbPXpg" caption="Tutoriel video" %}
+
 ## Encore une autre méthode : installer le jeu et les tutoriels (ensemble) sur votre poste
 
-> ### attention, il faut de la place : près de 2 Go ! Cette méthode vous permet d'avoir toutes les ressources, ludiques et pédagogiques, directement sur votre poste de travail ou sur une clef USB.
+> ### Attention, il faut de la place : près de 2 Go ! Cette méthode vous permet d'avoir toutes les ressources, ludiques et pédagogiques, directement sur votre poste de travail ou sur une clef USB.
 
 * Téléchargez le grimoire et le jeu [en cliquant ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip) (Le fichier téléchargé s'appelle : funcampr.zip)
 * ça va prendre un peu de temps : patience (environ 500 mo à télécharger)

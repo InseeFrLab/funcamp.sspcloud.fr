@@ -7,6 +7,7 @@
 
 * [Principes pédagogiques](espace-formateur/principes_pedagogiques.md)
 * [Trame de formation](espace-formateur/trame_pedagogique.md)
+* [Solution complète](espace-formateur/solution.md)
 
 ## Espace contributeur
 
@@ -14,9 +15,9 @@
 * [Le grimoire](espace-contributeur/contributeurs_2.md)
 * [Le moteur du jeu](espace-contributeur/contributeurs_3.md)
 
-## Evenements passés et à venir <a id="evenements"></a>
+## Evenements à venir <a id="evenements"></a>
 
-* [e-Funcamp 15/12/20](evenements/e-funcamp_15_12_20.md)
+* [La Nouvelle Aquitaine & Statis](evenements/nouvelle_aquitaine_2021.md)
 
 ## À propos
 

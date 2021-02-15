@@ -40,7 +40,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
     "Nouvelle Aquitaine": {
         "countdownTargetDate": {
             "endtimeYear": 2021,
-            "endtimeMonth": 04,
+            "endtimeMonth": 4,
             "endtimeDate": 27,
             "endtimeHours": 9
         },

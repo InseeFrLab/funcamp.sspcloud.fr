@@ -36,7 +36,16 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeHours": 9
         },
         "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/e-funcamp_15_12_20"
-    }
+    },
+    "Nouvelle Aquitaine": {
+        "countdownTargetDate": {
+            "endtimeYear": 2021,
+            "endtimeMonth": 04,
+            "endtimeDate": 27,
+            "endtimeHours": 9
+        },
+        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nouvelle_aquitaine_2021"
+    }  
 };
 
 

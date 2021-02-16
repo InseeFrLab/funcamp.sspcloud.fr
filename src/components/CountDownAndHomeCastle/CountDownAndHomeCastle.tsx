@@ -45,7 +45,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeHours": 9
         },
         "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nouvelle_aquitaine_2021"
-    }  
+    }
 };
 
 
@@ -119,19 +119,26 @@ export const CountDownAndHomeCastle: React.FC<{
 
                     <div className="countdown">
                         <div> {/* Countdown placeholder*/}
+                            {(() => {
 
-                            <h1>Prochain{conditionalPlural} évènement{conditionalPlural}</h1>
-                            <div>
-                                {Object.keys(upcomingEvents)
+                                const countdowns = Object.keys(upcomingEvents)
                                     .map(eventName => <Countdown
                                         countdownTargetDate={upcomingEvents[eventName].countdownTargetDate}
                                         eventPageUrl={upcomingEvents[eventName].eventPageUrl}
                                         eventName={eventName}
                                         key={eventName}
-                                    />)}
-                            </div>
+                                    />)
+                                    .filter(node => node !== null);
 
+                                return (
+                                    <>
+                                        {countdowns.length !== 0 &&
+                                            <h1>Prochain{conditionalPlural} évènement{conditionalPlural}</h1>}
+                                        <div> {countdowns} </div>
+                                    </>
+                                );
 
+                            })()}
                         </div>
                     </div>
 

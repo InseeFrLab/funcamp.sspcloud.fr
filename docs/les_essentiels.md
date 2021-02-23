@@ -6,16 +6,34 @@ Dans cette partie, nous vous proposons une aide à la prise en main du jeu icaRi
 
 Vous voilà au début de votre aventure, et vous découvrez le personnage, icaRius, dans une "vue du dessus". Comment faire pour manipuler ce personnage ? 
 
-- pour déplacer le personnage, utilisez les flèches directionnelles de votre clavier (flèches du haut ou du bas pour monter ou descendre, flèches gauche ou droite pour prendre ces directions)
-- pour dialoguer avec un autre personnage, mettez vous bien en face de lui et appuyez sur la touche espace.
-- pour interagir avec un élément du décor (un coffre, une porte), mettez vous bien en face et appuyez sur la touche espace
-- pour utiliser votre épée (que vous obtiendrez peu après l'énigme n°1), utilisez la touche c. 
+![](images/essentiels01.PNG)
 
-Un peu plus tard dans l'aventure, vous obtiendrez de nouveaux équipements. Pour y accéder, appuyez sur la touche d du clavier. Un menu apparaît, avec plusieurs informations :
+Pour déplacer le personnage, utilisez les *flèches directionnelles* de votre clavier (flèches du haut ou du bas pour monter ou descendre, flèches gauche ou droite pour prendre ces directions)
+
+![](images/essentiels02a.PNG)
+![](images/essentiels02b.PNG)
+
+Pour dialoguer avec un autre personnage, mettez vous bien en face de lui et appuyez sur la touche *espace*.
+
+![](images/essentiels03.PNG)
+
+Pour interagir avec un élément du décor (un coffre, une porte), mettez vous bien en face et appuyez sur la touche *espace*.
+
+![](images/essentiels04.PNG)
+
+Pour utiliser votre épée (que vous obtiendrez peu après l'énigme n°1), utilisez la touche *c*. 
+
+Un peu plus tard dans l'aventure, vous obtiendrez de nouveaux équipements. Pour y accéder, appuyez sur la touche *d* du clavier. Un menu apparaît, avec plusieurs informations
+
+![](images/essentiels05a.PNG)
+
 - en bas, les runes que vous avez obtenues (en grisée lorsqu'elles sont encore à obtenir, en bleu une fois obtenue) et le nombre de "quart de coeur" obtenu en attendant d'augmenter votre réserve de vie.
 - partie en haut à droite, quelques statistiques (eh oui) sur votre partie : point de vie, force, défense, temps de jeu... 
 - partie en haut à gauche, un panneau de sélection des équipements. Vous pouvez vous déplacer dans ce panneau avec les flèches directionnelles du clavier. Placez le curseur de sélection (un cercle qui clignote) sur un équipement de votre choix. Appuyez sur la touche x pour sélectionner cet équipement : un cercle entoure l'équipement pour confirmer votre choix. 
-Pour quitter ce menu, appuyez sur la touche d du clavier. Vous voilà de nouveau dans le jeu. Appuyez sur la touche x pour vous servir de votre équipement. 
+
+![](images/essentiels05b.PNG)
+
+Pour quitter ce menu, appuyez sur la touche *d* du clavier. Vous voilà de nouveau dans le jeu. Appuyez sur la touche *x* pour vous servir de votre équipement. 
 
 ## Les paramètres (musique, vidéo)
 

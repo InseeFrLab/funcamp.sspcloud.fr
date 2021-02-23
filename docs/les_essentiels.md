@@ -34,3 +34,11 @@ A la fin des modifications, appuyez sur la touche d pour quitter le menu. A note
 ## La carte des donjons
 
 A venir
+
+## Sauvegarder sa partie
+
+A tout moment dans le jeu, il est possible de mettre sur pause en appuyant sur la touche "esc. / écha." de votre clavier. Vous avez alors le choix entre : reprendre le jeu après cette pause, sauvegarder la partie et revenir à l'accueil du jeu, revenir à l'accueil du jeu sans sauvegarder.
+
+Attention : la sauvegarde vous permet de revenir à un point proche de votre parcours, en gardant en mémoire les Runes obtenues et les ennemis vaincus, mais pas toujour exactement au moment où vous vous êtes arrêtés (la partie peut reprendre, par exemple, au début du monde concerné).
+
+

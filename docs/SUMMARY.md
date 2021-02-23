@@ -2,6 +2,7 @@
 
 * [FuncampR](README.md)
 * [Démarrage rapide](demarrage_rapide.md)
+* [Manuel du jeu](les_essentiels.md)
 
 ## Espace formateur
 

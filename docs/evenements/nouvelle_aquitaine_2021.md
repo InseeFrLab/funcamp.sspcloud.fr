@@ -12,8 +12,8 @@ Insee, Srise, Direccte, Dreal... les participants de l'ensemble de la région et
 
 # Le calendrier
 
--Fin des inscriptions : le 19 mars 2021
--Sessions d'enrôlement : Date 1, Date 2, Date 3.
+- Fin des inscriptions : le 19 mars 2021
+- Sessions d'enrôlement : Date 1, Date 2, Date 3
 
 
 Pour en savoir plus, n'hésitez pas à contacter : funcamp-r@insee.fr

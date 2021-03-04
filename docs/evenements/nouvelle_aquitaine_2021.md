@@ -10,6 +10,11 @@ Insee, Srise, Direccte, Dreal... les participants de l'ensemble de la région et
 - Le Dépliant
 - L'affiche
 
+# Le FuncampR en pratique
+
+- Un séance préparatoire d'enrôlement (1H pour découvrir l'environnement du jeu et découvrir votre village)
+- Une journée (9h-12h et 13h30-16h30) en Zoom pour progresser ensemble
+
 # Le calendrier
 
 - Fin des inscriptions : le 19 mars 2021

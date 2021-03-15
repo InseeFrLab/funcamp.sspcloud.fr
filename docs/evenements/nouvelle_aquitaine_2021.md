@@ -4,8 +4,7 @@ Le lundi 26 avril 2021, les acteurs du système statistique public de la Nouvell
 
 Insee, Srise, Direccte, Dreal... les participants de l'ensemble de la région et des différents établissements concernés seront au rendez-vous.
 
-# Les différents supports de com' < trouver mieux
-
+# Les différents supports de com'
 - La bande annonce de l'événement en Nouvelle-Aquitaine
 - Le Dépliant
 - L'affiche

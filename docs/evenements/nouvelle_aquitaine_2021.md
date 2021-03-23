@@ -1,6 +1,6 @@
 # La Nouvelle Aquitaine part à la découverte du Royaume de Statis !
 
-Le lundi 26 avril 2021, les acteur·rice·s du système statistique public de la Nouvelle-Aquitaine uniront leurs forces pour se lancer dans l'aventure du FuncampR et tenter de vaincre le terrible SaSSoS. Une quarantaine de participant·e·s sont attendu·e·s pour vivre l'aventure vidéo-ludique d'IcaRius.
+Le lundi 26 avril 2021, les acteur·rice·s du système statistique public de la Nouvelle-Aquitaine uniront leurs forces pour se lancer dans l'aventure du FuncampR et tenter de vaincre le terrible SaSSoS. Une cinquantaine de participant·e·s sont attendu·e·s pour vivre l'aventure vidéo-ludique d'IcaRius.
 
 Insee, Srise, Direccte, Dreal, ... L'ensemble des différents établissements concernés seront au rendez-vous.
 
@@ -12,7 +12,7 @@ Insee, Srise, Direccte, Dreal, ... L'ensemble des différents établissements co
 
 # Le FuncampR en pratique
 
-- Un séance préparatoire d'enrôlement (1H pour découvrir l'environnement du jeu et découvrir votre village)
+- Un séance préparatoire d'enrôlement (1H pour découvrir l'environnement du jeu, l'utilisation spécifique de Zoom et découvrir votre village)
 - Une journée (9h00-12h00 et 13h30-16h30) en Zoom pour progresser ensemble.
 
 # Le calendrier

@@ -11,7 +11,7 @@
 
 
 This repo is the source code of the [funcamp.sspcloud.fr](https://funcamp.sspcloud.fr) website.  
-Inside the `docs/` are the sources for the documentation website [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr).  
+Inside the `docs/` are the sources for the documentation website [funcamp-funcamp.gitbook.io](https://funcamp-funcamp.gitbook.io).  
 
 Index of the rest of the project's source code:  
 
@@ -77,7 +77,7 @@ NOTE: With use [git LFS](https://git-lfs.github.com) to avoid tracking the asset
 ![image](https://user-images.githubusercontent.com/6702424/100550183-78423000-3278-11eb-9e7b-72c252d83112.png)
 
 
-# Contributing to [docs.funcamp.sspcloud.fr](https://docs.funcamp.sspcloud.fr) 
+# Contributing to [funcamp-funcamp.gitbook.io](https://funcamp-funcamp.gitbook.io) 
 
 The documentation website is not hosted via github page but with [gitbook.com](https://www.gitbook.com) 
 the easier way to contribute to the documentation is to request access to the GitBook space to one

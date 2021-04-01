@@ -26,7 +26,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeDate": 24,
             "endtimeHours": 11
         },
-        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/orlean_24_11_20"
+        "eventPageUrl": "https://funcamp-funcamp.gitbook.io/evenements/orlean_24_11_20"
     },
     "e-Funcamp": {
         "countdownTargetDate": {
@@ -35,7 +35,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeDate": 15,
             "endtimeHours": 9
         },
-        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/e-funcamp_15_12_20"
+        "eventPageUrl": "https://funcamp-funcamp.gitbook.io/evenements/e-funcamp_15_12_20"
     },
     "Nouvelle Aquitaine": {
         "countdownTargetDate": {
@@ -44,7 +44,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
             "endtimeDate": 27,
             "endtimeHours": 9
         },
-        "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nouvelle_aquitaine_2021"
+        "eventPageUrl": "https://funcamp-funcamp.gitbook.io/evenements/nouvelle_aquitaine_2021"
     }
 };
 
@@ -88,7 +88,7 @@ export const CountDownAndHomeCastle: React.FC<{
     );
 
     const openDoc = useCallback(
-        () => window.open("https://docs.funcamp.sspcloud.fr/demarrage_rapide"),
+        () => window.open("https://funcamp-funcamp.gitbook.io/demarrage_rapide"),
         []
     );
 

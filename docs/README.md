@@ -6,17 +6,15 @@ description: Une expérience vidéoludique d'apprentissage de R
 
 Soyez le/la bienvenu\(e\) au Funcamp R. Ce site rassemble l'ensemble des supports pédagogiques et ludiques relatifs à la formation que vous vous apprêtez à suivre. Pardon : cette page ouvre le grimoire IGoR, qui vous accompagnera dans **l’épopée statistico-ludique dont vous êtes le héros / l’héroïne**. Vous y trouverez, distillée au fur et à mesure des chapitres enluminés, toute la sagesse accumulée par ces mages qui, dans l’ombre, ont imaginé les épreuves que vous aurez à franchir.
 
-![](.gitbook/assets/icarius_startscreen%20%284%29.png)
+![](.gitbook/assets/icarius_startscreen.png)
 
 Parcourir ce grimoire vous permettra d’**apprendre, pas à pas, le langage des Runes**, nécessaire pour aider le jeune icaRius, votre alter-ego numérique, à sauver le royaume de Statis de la menace qui le guette. Au cours de cette aventure, il vous sera ainsi demandé de **résoudre des énigmes**, dont la solution vous permettra d’avancer un peu plus loin dans les terres de Statis. Ces énigmes sont autant d’étapes pour découvrir les possibilités \(magiques!\) offertes par R. La solution sera ensuite à renseigner dans l’écran du jeu icaRius, prévu à cet effet.
 
 {% embed url="https://www.youtube.com/watch?v=Quz2CfF0gmo&feature=emb\_title" caption="" %}
 
 Le Funcamp R s'adresse avant tout à celles et ceux qui, **petits et grands débutants en R**, souhaitent inscrire leur apprentissage dans une démarche amusante, avec une alernance de phases de jeu et de tutoriels R. Il a été conçu pour **les agents du système statistique public**, qui retrouveront dans l'aventure d'icaRius quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. La composante dédiée aux techniques statistiques est délibèrement très restreinte : il s'agit surtout d'apprendre à maîtriser le cadre général de l'environnement R, d'autres formations plus avancées répondant aux besoins des statisticiens avertis.
- 
-**Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Démarrage rapide](demarrage_rapide.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.
 
-![](http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r/images/icarius-visuel-a.png)
+**Désireux de vous lancer dans l'aventure d'icaRius ?** Consulter la page [Démarrage rapide](demarrage_rapide.md), qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R.
 
 Cet espace propose également, pour les esprits curieux, des informations complémentaires:
 

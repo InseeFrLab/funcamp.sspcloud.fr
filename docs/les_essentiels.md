@@ -49,14 +49,12 @@ A chaque fois, déplacez vous en utilisant les flèches haut et bas du clavier, 
 
 A la fin des modifications, appuyez sur la touche d pour quitter le menu. A noter, la modification est gardée en mémoire, même si vous redémarrez le jeu. Pratique !
 
-## La carte des donjons
-
-A venir
-
 ## Sauvegarder sa partie
 
 A tout moment dans le jeu, il est possible de mettre sur pause en appuyant sur la touche "esc. / écha." de votre clavier. Vous avez alors le choix entre : reprendre le jeu après cette pause, sauvegarder la partie et revenir à l'accueil du jeu, revenir à l'accueil du jeu sans sauvegarder.
 
 Attention : la sauvegarde vous permet de revenir à un point proche de votre parcours, en gardant en mémoire les Runes obtenues et les ennemis vaincus, mais pas toujour exactement au moment où vous vous êtes arrêtés (la partie peut reprendre, par exemple, au début du monde concerné).
 
+## La carte des donjons
 
+Au fur et à mesure de l'aventure, icaRius devra explorer des donjons renfermant bien des surprises. Si les premiers donjons sont limités à quelques pièces, les suivants peuvent être alambiqués. Pour certains d'entre eux, vous pourrez récupérer une carte - cela vous sera précisé en cours de jeu. Pour consulter la carte du donjon, appuyez sur la touche D pour faire apparaître le menu contextuel. Puis déplacez vous avec les flèches Gauche ou Droite du clavier par parvenir à l'écran où la carte apparaît.

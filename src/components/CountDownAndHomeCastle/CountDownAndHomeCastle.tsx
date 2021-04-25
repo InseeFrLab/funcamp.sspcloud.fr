@@ -41,7 +41,7 @@ const upcomingEvents: { [eventName: string]: { countdownTargetDate: CountdownTar
         "countdownTargetDate": {
             "endtimeYear": 2021,
             "endtimeMonth": 4,
-            "endtimeDate": 27,
+            "endtimeDate": 26,
             "endtimeHours": 9
         },
         "eventPageUrl": "https://docs.funcamp.sspcloud.fr/evenements/nouvelle_aquitaine_2021"

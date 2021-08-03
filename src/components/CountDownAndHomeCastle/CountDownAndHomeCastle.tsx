@@ -98,12 +98,21 @@ export const CountDownAndHomeCastle: React.FC<{
     );
 
     const conditionalPlural = useMemo(
-        () =>
-            Object.keys(upcomingEvents)
+        () => {
+
+            const l = Object.keys(upcomingEvents)
                 .map(eventName => upcomingEvents[eventName].countdownTargetDate)
                 .map(countdownTargetDate => getEvtTimeRemaining(countdownTargetDate))
                 .filter(evtTimeRemaining => !isEndedFromMoreThan8Hours(evtTimeRemaining.state))
-                .length === 1 ? "" : "s",
+                .length;
+
+            switch (l) {
+                case 0: return undefined;
+                case 1: return "";
+                default: return "s";
+            }
+
+        },
         []
     );
 
@@ -128,11 +137,10 @@ export const CountDownAndHomeCastle: React.FC<{
                                         eventName={eventName}
                                         key={eventName}
                                     />)
-                                    .filter(node => node !== null);
 
                                 return (
                                     <>
-                                        {countdowns.length !== 0 &&
+                                        {conditionalPlural !== undefined &&
                                             <h1>Prochain{conditionalPlural} évènement{conditionalPlural}</h1>}
                                         <div> {countdowns} </div>
                                     </>
@@ -231,7 +239,6 @@ const Countdown: React.FC<{
         [countdownTargetDate]
     );
 
-
     useStatefulEvt([evtTimeRemaining]);
 
     const { days, hours, minutes, seconds, total } = evtTimeRemaining.state;
@@ -254,7 +261,7 @@ const Countdown: React.FC<{
         >
             <h3>{eventName}</h3>
 
-            { total < 0 ?
+            {total < 0 ?
                 <h2>En cours maintenant</h2> : (
                     <>
                         {

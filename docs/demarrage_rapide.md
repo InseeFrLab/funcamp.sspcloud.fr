@@ -17,7 +17,7 @@ Nous allons vous guider pour accéder à ces éléments.
 
 Vous pouvez tout d'abord télécharger le jeu sur votre poste de travail, ou sur une clef USB : c'est rapide et léger \(seulement 30 mo, moins de 5 minutes\). Rien à craindre pour la sécurité de votre poste - d'ailleurs, c'est une version dite "portable" du jeu, qui n'installe rien sur votre système d'exploitation. Voici comment procéder :
 
-* téléchargez le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
+* téléchargez le jeu icaRius en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/lxwgkb/icaRius-windows.zip)
 * le fichier téléchargé s'appelle : icaRius-windows.zip
 * dézipper le contenu à l'endroit de votre choix \(par exemple, dans "Mes documents", ou même sur une clé USB\) : vous aurez alors un répertoire appelé icaRius-windows.
 * à la fin de l'installation, allez dans le répertoire icaRius-windows, puis double-cliquez sur l'icône **START\_icarius**, qui lancera automatiquement une page d'accueil. 
